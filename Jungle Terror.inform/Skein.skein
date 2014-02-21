@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x18d5310" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1b63c40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1bb1980" />
-  <item nodeId="node-0x18d5310">
+  <activeNode nodeId="node-0x81bfb10" />
+  <item nodeId="node-0x1b63c40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,55 +12,31 @@ You open your eyes. Your eyesight is blurry and it takes a while for you to real
 
 Jungle Terror
 An Interactive Fiction by Branden Yoshinaga
-Release 1 / Serial number 140219 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140221 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Beach
-A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther up the beach.
+A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach.
 
 You can see a fishing line here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="8">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="25">NO</temporary>
     <children>
-      <child nodeId="node-0xebc7830" />
-      <child nodeId="node-0xeb6f440" />
-      <child nodeId="node-0xb37bbf0" />
-      <child nodeId="node-0x1802820" />
+      <child nodeId="node-0xba08050" />
+      <child nodeId="node-0x81d0dc0" />
+      <child nodeId="node-0x72db450" />
+      <child nodeId="node-0x1b63ba0" />
+      <child nodeId="node-0x72c5d70" />
+      <child nodeId="node-0x1b63d00" />
+      <child nodeId="node-0x1b63f40" />
+      <child nodeId="node-0x7255690" />
+      <child nodeId="node-0x81bb0c0" />
+      <child nodeId="node-0x1b63e60" />
     </children>
   </item>
-  <item nodeId="node-0x1802820">
-    <command xml:space="preserve">x fishing line</command>
-    <result xml:space="preserve">A long, tough fishing line that washed up on the beach.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-    <children>
-      <child nodeId="node-0xb95fbc0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb95fbc0">
-    <command xml:space="preserve">take fishing line</command>
-    <result xml:space="preserve">you pick up the fishing line and stuff it in the pocket of your tattered jeans.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0xb37bbf0">
-    <command xml:space="preserve">take line</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
-  </item>
-  <item nodeId="node-0xeb6f440">
+  <item nodeId="node-0x1b63e60">
     <command xml:space="preserve">take sand</command>
     <result xml:space="preserve">Why are wasting your time trying to take sand? Besides, you have nothing to carry it in.
 
@@ -69,10 +45,10 @@ You can see a fishing line here.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1980" />
+      <child nodeId="node-0x1b63ed0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1980">
+  <item nodeId="node-0x1b63ed0">
     <command xml:space="preserve">take white sand</command>
     <result xml:space="preserve">Why are wasting your time trying to take sand? Besides, you have nothing to carry it in.
 
@@ -81,7 +57,55 @@ You can see a fishing line here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0xebc7830">
+  <item nodeId="node-0x81bb0c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x72da060" />
+    </children>
+  </item>
+  <item nodeId="node-0x72da060">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther up the beach.
+
+You can see a fishing line here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xb836d40" />
+    </children>
+  </item>
+  <item nodeId="node-0xb836d40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x7255690">
+    <command xml:space="preserve">x dirt</command>
+    <result xml:space="preserve">Dirty dirt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b63f40">
     <command xml:space="preserve">x sand</command>
     <result xml:space="preserve">Very fine white sand that is warm to the touch.
 
@@ -90,10 +114,10 @@ You can see a fishing line here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0xebd6280" />
+      <child nodeId="node-0x1b64030" />
     </children>
   </item>
-  <item nodeId="node-0xebd6280">
+  <item nodeId="node-0x1b64030">
     <command xml:space="preserve">take sand</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -101,5 +125,207 @@ You can see a fishing line here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b63d00">
+    <command xml:space="preserve">take line</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x72c5d70">
+    <command xml:space="preserve">x palms</command>
+    <result xml:space="preserve">Tall, slender palms that lazily sway in the breeze.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xba25bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xba25bb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. There is a lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x81bfb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x81bfb10">
+    <command xml:space="preserve">x palms</command>
+    <result xml:space="preserve">Tall, slender palms that line the edges of the clearing. Trees are missing where paths are formed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b63ba0">
+    <command xml:space="preserve">x fishing line</command>
+    <result xml:space="preserve">A long, tough fishing line that washed up on the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x815b0b0" />
+      <child nodeId="node-0x1b63c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b63c90">
+    <command xml:space="preserve">take fishing line</command>
+    <result xml:space="preserve">you pick up the fishing line and stuff it in the pocket of your tattered jeans.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x815b0b0">
+    <command xml:space="preserve">x white sand</command>
+    <result xml:space="preserve">Very fine white sand that is warm to the touch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x7289540" />
+    </children>
+  </item>
+  <item nodeId="node-0x7289540">
+    <command xml:space="preserve">x island</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x72db450">
+    <command xml:space="preserve">x island</command>
+    <result xml:space="preserve">You&apos;re standing on it!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x72ee950" />
+    </children>
+  </item>
+  <item nodeId="node-0x72ee950">
+    <command xml:space="preserve"> x waves</command>
+    <result xml:space="preserve">Crystal clear sea water gently lapping the white sand.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x72b7680" />
+    </children>
+  </item>
+  <item nodeId="node-0x72b7680">
+    <command xml:space="preserve">x ocean</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x81d0dc0">
+    <command xml:space="preserve">x ocean</command>
+    <result xml:space="preserve">A beautiful, sparkling, sapphire ocean that stretches to the horizon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x7213cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7213cf0">
+    <command xml:space="preserve">x sand</command>
+    <result xml:space="preserve">Very fine white sand that is warm to the touch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0xba580a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xba580a0">
+    <command xml:space="preserve">x crab holes</command>
+    <result xml:space="preserve">Quarter-sized holes that are scattered all around the shore line.
+
+Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it&apos;s a rusty key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf48e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf48e0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+  </item>
+  <item nodeId="node-0xba08050">
+    <command xml:space="preserve">x holes</command>
+    <result xml:space="preserve">Quarter-sized holes that are scattered all around the shore line.
+
+Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it&apos;s a rusty key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x720e860" />
+    </children>
+  </item>
+  <item nodeId="node-0x720e860">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">you wipe the sand off the rusty key and put it in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x72f9520" />
+    </children>
+  </item>
+  <item nodeId="node-0x72f9520">
+    <command xml:space="preserve">x island</command>
+    <result xml:space="preserve">You&apos;re standing on it!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
   </item>
 </Skein>
