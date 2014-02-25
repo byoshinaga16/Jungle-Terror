@@ -45,13 +45,13 @@ understand "water" as ocean.
 
 The palm trees is scenery in the beach. "Tall, slender palms that lazily sway in the breeze."
 
-understand "palm" as palm trees
+understand "palm" as palm trees.
 
-understand "palms" as palm trees
+understand "palms" as palm trees.
 
-understand "tree" as palm trees
+understand "trees" as palm trees.
 
-understand "trees" as palm trees
+understand "tree" as palm trees.
 
 The dirt is scenery in the beach. "Dirty dirt."
 
@@ -68,3 +68,48 @@ understand "palms" as ring of palm trees
 understand "palm trees" as ring of palm trees
 
 understand "ring of trees" as ring of palm trees
+
+The lone tree is scenery in the clearing. "A lonely tree that sits in the middle of the clearing. Its trunk is tall and feeble. Its leafless branches sadly slump towards the dirt."
+
+understand "dead tree" as lone tree.
+
+understand "lonely tree" as lone tree.
+
+understand "tree" as lone tree.
+
+The flexible stick is an object. the description is "A strong, skinny, flexible stick. This could be useful."
+
+understand "stick" as flexible stick.
+
+understand "long stick" as flexible stick.
+
+understand "strong stick" as flexible stick.
+
+understand "skinny stick" as flexible stick.
+
+understand "useful stick" as flexible stick.
+
+after examining the lone tree:
+say "High above you, way out of reach, you see skinny branches dangling from the weak trunk. Maybe you can somehow get one.";
+
+The skinny branches is scenery in the clearing. "Skinny branches dangling from the weak trunk high above."
+
+understand "dangling branches" as skinny branches.
+
+understand "branch" as skinny branches.
+
+understand "skinny branch" as skinny branches.
+
+understand "dangling branch" as skinny branches.
+
+instead of shaking the lone tree:
+say "You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
+move the flexible stick to the clearing.;
+
+shaking is an action applying to one visible thing.
+
+understand "shake [the tree]" as shaking.
+
+Instead of climbing tree:
+say "You hug the trunk and shimmy up the tree. When you reach the top, you hear the sound of cracking wood below. You scream in terror as the feeble trunk collapses and you fall to the ground.";
+end the game saying "You fell to your death"
