@@ -1,4 +1,4 @@
-"Jungle Terror" by Branden Yoshinaga
+"Jungle Terror" by Braden Yoshinaga
 
 When play begins: say "You open your eyes. Your eyesight is blurry and it takes a while for you to realize that you are staring straight up at the cloudless blue sky. The faint squawk of birds slowly gets louder as you come back to your senses.  Still in a daze, you slowly sit up and look around. You find yourself sitting on the soft white sand of an empty beach. How in the world did you end up here? Your clothes is tattered and your entire body aches with pain. Carefully, you stand up and walk around, letting the warm sand slip through your bare toes. After examining your surroundings a bit more, you realize that you're on a small Island."
 
@@ -7,9 +7,6 @@ The Beach is a room. "A beautiful white sand beach that stretches around the ent
 The fishing line is in the beach. The description of the fishing line is "A long, tough fishing line that washed up on the beach."
 
 understand "line" as fishing line
-
-instead of taking the line:
-say "You pick up the fishing line and stuff it in the pocket of your tattered jeans."
 
 The sand is scenery in the beach. "Very fine white sand that is warm to the touch." 
 
@@ -55,7 +52,7 @@ understand "tree" as palm trees.
 
 The dirt is scenery in the beach. "Dirty dirt."
 
-The Clearing is a room. it is north of the beach. "A wide open grassy clearing that is surrounded by a ring of palm trees. There is a lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. Four paths from all directions intersect here."
+The Clearing is a room. it is north of the beach. "A wide open grassy clearing that is surrounded by a ring of palm trees. There is a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. Four paths from all directions intersect here."
 
 The grass is scenery in the clearing. "A thin layer of light green grass."
 
@@ -90,9 +87,17 @@ understand "skinny stick" as flexible stick.
 understand "useful stick" as flexible stick.
 
 after examining the lone tree:
-say "High above you, way out of reach, you see skinny branches dangling from the weak trunk. Maybe you can somehow get one.";
+	If the player is not holding the flexible stick:
+		say "High above you, way out of reach, you see skinny branches dangling from the weak trunk. Maybe you can somehow get one.";	
 
-The skinny branches is scenery in the clearing. "Skinny branches dangling from the weak trunk high above."
+The skinny branches is an object. The skinny branches is in the clearing. The description is "Skinny branches dangling from the weak trunk high above."
+
+Before listing nondescript items when the player is in the clearing, 
+	if the skinny branches is marked for listing,
+		change the skinny branches to not marked for listing.
+
+Instead of taking skinny branches:
+say "They're too far out of reach."
 
 understand "dangling branches" as skinny branches.
 
@@ -103,9 +108,12 @@ understand "skinny branch" as skinny branches.
 understand "dangling branch" as skinny branches.
 
 instead of shaking the lone tree:
-say "You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
-move the flexible stick to the clearing.;
-
+	If the player is holding the flexible stick:
+		say "You shake the feeble trunk but nothing happens.";
+	If the player is not holding the flexible stick:
+		say "You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
+		move the flexible stick to the clearing.
+		
 shaking is an action applying to one visible thing.
 
 understand "shake [the tree]" as shaking.
@@ -113,3 +121,40 @@ understand "shake [the tree]" as shaking.
 Instead of climbing tree:
 say "You hug the trunk and shimmy up the tree. When you reach the top, you hear the sound of cracking wood below. You scream in terror as the feeble trunk collapses and you fall to the ground.";
 end the game saying "You fell to your death"
+
+hitting is an action applying to one visible thing.
+
+understand "hit [the tree]" as hitting.
+
+punching is an action applying to one visible thing.
+
+understand "punch [the tree]" as hitting.
+
+Instead of hitting tree:
+	If the player is holding the flexible stick:
+		say "You hit the feeble trunk of the tree but nothing happens.";
+	If the player is not holding the flexible stick:
+		say "You hit the feeble trunk of the tree. A skinny branch detaches itself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
+		move the flexible stick to the clearing.
+			
+The cluster of boulders is scenery in the clearing. "A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around."
+
+understand "boulders" as cluster of boulders.
+
+understand "boulder" as cluster of boulders
+
+understand "rocks" as cluster of boulders
+
+understand "cluster" as cluster of boulders.
+
+After examining the boulders:
+	If the player is not holding the sharp rock:
+		say "You can see a sharp rock here."
+	
+The sharp rock is an object. The sharp rock is in the clearing. The description of the sharp rock is "A rock with one sharp, serrated side
+that resembles a blade edge."
+
+Before listing nondescript items when the player is in the clearing, 
+	if the sharp rock is marked for listing,
+		change the sharp rock to not marked for listing. 
+				
