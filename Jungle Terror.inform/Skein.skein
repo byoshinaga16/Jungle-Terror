@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x18e96b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18e1470" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xb023590" />
-  <item nodeId="node-0x18e96b0">
+  <activeNode nodeId="node-0x18e1470" />
+  <item nodeId="node-0x18e1470">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,7 +12,7 @@ You open your eyes. Your eyesight is blurry and it takes a while for you to real
 
 Jungle Terror
 An Interactive Fiction by Braden Yoshinaga
-Release 1 / Serial number 140227 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140303 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Beach
 A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach.
@@ -22,639 +22,28 @@ You can see a fishing line here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="127">NO</temporary>
+    <temporary score="29">NO</temporary>
     <children>
-      <child nodeId="node-0x1831b40" />
-      <child nodeId="node-0x18e9720" />
+      <child nodeId="node-0x1816800" />
+      <child nodeId="node-0xba534b0" />
     </children>
   </item>
-  <item nodeId="node-0x18e9720">
+  <item nodeId="node-0xba534b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. There is a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. Four paths from all directions intersect here.
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="127">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xeb8da50" />
-      <child nodeId="node-0x7239e90" />
-      <child nodeId="node-0x7275990" />
-      <child nodeId="node-0x7258780" />
-      <child nodeId="node-0x1b4ccb0" />
-      <child nodeId="node-0x18e9c30" />
+      <child nodeId="node-0x6b45bb0" />
+      <child nodeId="node-0x6bef000" />
     </children>
   </item>
-  <item nodeId="node-0x18e9c30">
-    <command xml:space="preserve">x tree</command>
-    <result xml:space="preserve">A lonely tree that sits in the middle of the clearing. Its trunk is tall and feeble. Its leafless branches sadly slump towards the dirt.
-
-High above you, way out of reach, you see skinny branches dangling from the weak trunk. Maybe you can somehow get one.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x1833000" />
-      <child nodeId="node-0x1832db0" />
-      <child nodeId="node-0x18333b0" />
-      <child nodeId="node-0xeb5b040" />
-      <child nodeId="node-0x72a3600" />
-    </children>
-  </item>
-  <item nodeId="node-0x72a3600">
-    <command xml:space="preserve">hit tree</command>
-    <result xml:space="preserve">You hit the feeble trunk of the tree. A skinny branch detaches itself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="112">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb5cb90" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb5cb90">
-    <command xml:space="preserve">take flexible stick</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="107">YES</temporary>
-    <children>
-      <child nodeId="node-0x72bac70" />
-    </children>
-  </item>
-  <item nodeId="node-0x72bac70">
-    <command xml:space="preserve">hit tree</command>
-    <result xml:space="preserve">You hit the feeble trunk of the tree but nothing happens.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="107">YES</temporary>
-    <children>
-      <child nodeId="node-0xeba52d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeba52d0">
-    <command xml:space="preserve">x tree</command>
-    <result xml:space="preserve">A lonely tree that sits in the middle of the clearing. Its trunk is tall and feeble. Its leafless branches sadly slump towards the dirt.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="107">YES</temporary>
-    <children>
-      <child nodeId="node-0xb033a30" />
-    </children>
-  </item>
-  <item nodeId="node-0xb033a30">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You shake the feeble trunk but nothing happens.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="107">YES</temporary>
-    <children>
-      <child nodeId="node-0xb051620" />
-    </children>
-  </item>
-  <item nodeId="node-0xb051620">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a flexible stick
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-  </item>
-  <item nodeId="node-0xeb5b040">
-    <command xml:space="preserve">take skinny branches</command>
-    <result xml:space="preserve">They&apos;re too far out of reach.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x7275940" />
-    </children>
-  </item>
-  <item nodeId="node-0x7275940">
-    <command xml:space="preserve">hit tree</command>
-    <result xml:space="preserve">You hit the feeble trunk of the tree. A skinny branch detaches itself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x7253f20" />
-    </children>
-  </item>
-  <item nodeId="node-0x7253f20">
-    <command xml:space="preserve">take branch</command>
-    <result xml:space="preserve">They&apos;re too far out of reach.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xea7b110" />
-    </children>
-  </item>
-  <item nodeId="node-0xea7b110">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb733e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb733e0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a flexible stick
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xebdd1f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xebdd1f0">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a small, sharp rock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bbb4c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bbb4c0">
-    <command xml:space="preserve">take sharp rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xebb5ce0" />
-    </children>
-  </item>
-  <item nodeId="node-0xebb5ce0">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a small, sharp rock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xb051550" />
-    </children>
-  </item>
-  <item nodeId="node-0xb051550">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">You already have that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="66">YES</temporary>
-  </item>
-  <item nodeId="node-0x18333b0">
-    <command xml:space="preserve">x dangling branch</command>
-    <result xml:space="preserve">A skinny branch dangling from the weak trunk high above.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x1833340" />
-    </children>
-  </item>
-  <item nodeId="node-0x1833340">
-    <command xml:space="preserve">x trunk</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x18332d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18332d0">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. The skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x1833260" />
-    </children>
-  </item>
-  <item nodeId="node-0x1833260">
-    <command xml:space="preserve">x branch</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x18331f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18331f0">
-    <command xml:space="preserve">x tree</command>
-    <result xml:space="preserve">A lonely tree that sits in the middle of the clearing. Its trunk is tall and feeble. Its leafless branches sadly slump towards the dirt.
-
-High above you, way out of reach, you see a skinny branch dangling from the weak trunk. Maybe you can somehow get it.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x1833180" />
-    </children>
-  </item>
-  <item nodeId="node-0x1833180">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. The skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x18334d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18334d0">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">You pick up the flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x1833470" />
-    </children>
-  </item>
-  <item nodeId="node-0x1833470">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832f70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832f70">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832f00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832f00">
-    <command xml:space="preserve">x stick</command>
-    <result xml:space="preserve">You see nothing special about the flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832e90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832e90">
-    <command xml:space="preserve">x flexible stick</command>
-    <result xml:space="preserve">You see nothing special about the flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="72">YES</temporary>
-  </item>
-  <item nodeId="node-0x1832db0">
-    <command xml:space="preserve">x branches</command>
-    <result xml:space="preserve">Skinny branches dangling from the weak trunk high above.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="77">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832d40">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. The skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="76">YES</temporary>
-  </item>
-  <item nodeId="node-0x1833000">
-    <command xml:space="preserve">x branch</command>
-    <result xml:space="preserve">Skinny branches dangling from the weak trunk high above.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1833050" />
-      <child nodeId="node-0x1832160" />
-      <child nodeId="node-0x18327f0" />
-      <child nodeId="node-0x1832a00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832a00">
-    <command xml:space="preserve">x branches</command>
-    <result xml:space="preserve">Skinny branches dangling from the weak trunk high above.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832a70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832a70">
-    <command xml:space="preserve">take branches</command>
-    <result xml:space="preserve">That&apos;s hardly portable.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x18320f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18320f0">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832080" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832080">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">You pick up the flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832010" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832010">
-    <command xml:space="preserve">x stick</command>
-    <result xml:space="preserve">A strong, skinny, flexible stick. This could be useful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1831fa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1831fa0">
-    <command xml:space="preserve"> x branch</command>
-    <result xml:space="preserve">Skinny branches dangling from the weak trunk high above.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1831f30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1831f30">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1831ec0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1831ec0">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">You pick up the flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="110">YES</temporary>
-  </item>
-  <item nodeId="node-0x18327f0">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. The skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="84">YES</temporary>
-    <children>
-      <child nodeId="node-0x18322b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18322b0">
-    <command xml:space="preserve">x stick</command>
-    <result xml:space="preserve">You see nothing special about the flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="84">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832240" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832240">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">You pick up the flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="84">YES</temporary>
-    <children>
-      <child nodeId="node-0x18321d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18321d0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a flexible stick
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="83">YES</temporary>
-  </item>
-  <item nodeId="node-0x1832160">
-    <command xml:space="preserve">shake branch</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="100">YES</temporary>
-    <children>
-      <child nodeId="node-0x18328b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18328b0">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="100">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832920" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832920">
-    <command xml:space="preserve">x stick</command>
-    <result xml:space="preserve">A strong, skinny, flexible stick. This could be useful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="100">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832990" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832990">
-    <command xml:space="preserve">take branch</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="99">YES</temporary>
-  </item>
-  <item nodeId="node-0x1833050">
-    <command xml:space="preserve">x skinny branch</command>
-    <result xml:space="preserve">A skinny branch dangling from the weak trunk high above.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1832860" />
-    </children>
-  </item>
-  <item nodeId="node-0x1832860">
-    <command xml:space="preserve">x dangling branch</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="59">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b4ccb0">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a sharp rock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b586a0" />
-      <child nodeId="node-0xeb45400" />
-      <child nodeId="node-0x1bf15b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bf15b0">
-    <command xml:space="preserve">take sharp rock</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="84">YES</temporary>
-    <children>
-      <child nodeId="node-0xebd2ef0" />
-    </children>
-  </item>
-  <item nodeId="node-0xebd2ef0">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">sup
-
-You can see a sharp rock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="83">YES</temporary>
-  </item>
-  <item nodeId="node-0xeb45400">
+  <item nodeId="node-0x6bef000">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Beach
@@ -665,312 +54,311 @@ You can see a fishing line here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="72">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x18fa200" />
+      <child nodeId="node-0x1be28d0" />
     </children>
   </item>
-  <item nodeId="node-0x18fa200">
+  <item nodeId="node-0x1be28d0">
+    <command xml:space="preserve">take line</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x6bda5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6bda5a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. There is a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. Four paths from all directions intersect here.
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="72">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x7291d00" />
+      <child nodeId="node-0xeca2760" />
     </children>
   </item>
-  <item nodeId="node-0x7291d00">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="71">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b586a0">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a sharp rock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x7293650" />
-    </children>
-  </item>
-  <item nodeId="node-0x7293650">
-    <command xml:space="preserve">take sharp rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x7258680" />
-    </children>
-  </item>
-  <item nodeId="node-0x7258680">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb47f00" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb47f00">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">You already have that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="95">YES</temporary>
-  </item>
-  <item nodeId="node-0x7258780">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="127">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb62880" />
-      <child nodeId="node-0x72596e0" />
-      <child nodeId="node-0xeb53850" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb53850">
-    <command xml:space="preserve">hit tree</command>
-    <result xml:space="preserve">You hit the feeble trunk of the tree. A skinny branch detaches itself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0xeaeef50" />
-    </children>
-  </item>
-  <item nodeId="node-0xeaeef50">
-    <command xml:space="preserve">hit stick</command>
-    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x725e190" />
-    </children>
-  </item>
-  <item nodeId="node-0x725e190">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0xebb8ec0" />
-    </children>
-  </item>
-  <item nodeId="node-0xebb8ec0">
-    <command xml:space="preserve">hit tree</command>
-    <result xml:space="preserve">You hit the feeble trunk of the tree but nothing happens.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b49c20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b49c20">
-    <command xml:space="preserve">x tree</command>
-    <result xml:space="preserve">A lonely tree that sits in the middle of the clearing. Its trunk is tall and feeble. Its leafless branches sadly slump towards the dirt.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="121">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb5b990" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb5b990">
+  <item nodeId="node-0xeca2760">
     <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You shake the feeble trunk but nothing happens.
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="120">YES</temporary>
-  </item>
-  <item nodeId="node-0x72596e0">
-    <command xml:space="preserve">x stick</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="127">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x1b4d770" />
+      <child nodeId="node-0x6bfa4f0" />
     </children>
   </item>
-  <item nodeId="node-0x1b4d770">
-    <command xml:space="preserve">hit tree</command>
-    <result xml:space="preserve">You hit the feeble trunk of the tree. A skinny branch detaches itself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="127">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb6b140" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb6b140">
-    <command xml:space="preserve">x stick</command>
-    <result xml:space="preserve">A strong, skinny, flexible stick. This could be useful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="127">YES</temporary>
-    <children>
-      <child nodeId="node-0xb023590" />
-    </children>
-  </item>
-  <item nodeId="node-0xb023590">
+  <item nodeId="node-0x6bfa4f0">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="126">YES</temporary>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x1be2810" />
+    </children>
   </item>
-  <item nodeId="node-0xeb62880">
+  <item nodeId="node-0x1be2810">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x6b506e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6b506e0">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">You now have a tied stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x1897690" />
+    </children>
+  </item>
+  <item nodeId="node-0x1897690">
+    <command xml:space="preserve">combine stick with worm</command>
+    <result xml:space="preserve">You now have a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0xec918e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec918e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ab8170" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ab8170">
+    <command xml:space="preserve">x fishing</command>
+    <result xml:space="preserve">A makeshift and fully-functional fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+  </item>
+  <item nodeId="node-0x6b45bb0">
+    <command xml:space="preserve">x mud</command>
+    <result xml:space="preserve">A small pit of warm, thick mud.
+
+You can see a worm on the surface of the mud.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ac72d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ac72d0">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6a8d340" />
+    </children>
+  </item>
+  <item nodeId="node-0x6a8d340">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a worm
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x18971a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18971a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach.
+
+You can see a fishing line here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ab98f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ab98f0">
+    <command xml:space="preserve">take fishing line</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6bbf9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6bbf9b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xec6ea40" />
+    </children>
+  </item>
+  <item nodeId="node-0xec6ea40">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6bf2d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6bf2d70">
+    <command xml:space="preserve">take stick</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6b58cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6b58cc0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a flexible stick
+  a fishing line
+  a worm
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="109">YES</temporary>
-  </item>
-  <item nodeId="node-0x7275990">
-    <command xml:space="preserve">x boulder</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a sharp rock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xeacda90" />
+      <child nodeId="node-0x6b82000" />
     </children>
   </item>
-  <item nodeId="node-0xeacda90">
-    <command xml:space="preserve">x boulder</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
+  <item nodeId="node-0x6b82000">
+    <command xml:space="preserve">combine stick and line</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="86">YES</temporary>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6be9460" />
+    </children>
   </item>
-  <item nodeId="node-0x7239e90">
-    <command xml:space="preserve">take sharp rock</command>
-    <result xml:space="preserve">hi
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="79">YES</temporary>
-  </item>
-  <item nodeId="node-0xeb8da50">
-    <command xml:space="preserve">boulders</command>
+  <item nodeId="node-0x6be9460">
+    <command xml:space="preserve">attatch line to stick</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="78">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xeb8e820" />
+      <child nodeId="node-0x6bedcd0" />
     </children>
   </item>
-  <item nodeId="node-0xeb8e820">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a sharp rock here.
+  <item nodeId="node-0x6bedcd0">
+    <command xml:space="preserve">attach line to stick</command>
+    <result xml:space="preserve">You now have a tied stick.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="78">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x75af850" />
+      <child nodeId="node-0xbaeac80" />
     </children>
   </item>
-  <item nodeId="node-0x75af850">
-    <command xml:space="preserve">take sharp rock</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0xbaeac80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a tied stick
+  a worm
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="78">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xeb43580" />
+      <child nodeId="node-0x6b3a940" />
     </children>
   </item>
-  <item nodeId="node-0xeb43580">
-    <command xml:space="preserve">x boulder</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x6b3a940">
+    <command xml:space="preserve">x tied stick</command>
+    <result xml:space="preserve">A close resemblance to a fishing rod. All you need is bait.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="78">YES</temporary>
+    <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xeb59010" />
+      <child nodeId="node-0x6bed130" />
     </children>
   </item>
-  <item nodeId="node-0xeb59010">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a sharp rock here.
+  <item nodeId="node-0x6bed130">
+    <command xml:space="preserve">x worm</command>
+    <result xml:space="preserve">A plump and juicy pink worm.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="77">YES</temporary>
+    <temporary score="17">YES</temporary>
   </item>
-  <item nodeId="node-0x1831b40">
+  <item nodeId="node-0x1816800">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -979,10 +367,10 @@ You can see a sharp rock here.
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1831ad0" />
+      <child nodeId="node-0x1816790" />
     </children>
   </item>
-  <item nodeId="node-0x1831ad0">
+  <item nodeId="node-0x1816790">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Clearing
@@ -993,10 +381,10 @@ A wide open grassy clearing that is surrounded by a ring of palm trees. There is
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1831a60" />
+      <child nodeId="node-0x1816720" />
     </children>
   </item>
-  <item nodeId="node-0x1831a60">
+  <item nodeId="node-0x1816720">
     <command xml:space="preserve">x tree</command>
     <result xml:space="preserve">A lonely tree that sits in the middle of the clearing. Its trunk is tall and feeble. Its leafless branches sadly slump towards the dirt.
 
@@ -1007,10 +395,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x18319f0" />
+      <child nodeId="node-0x18166b0" />
     </children>
   </item>
-  <item nodeId="node-0x18319f0">
+  <item nodeId="node-0x18166b0">
     <command xml:space="preserve">shake tree</command>
     <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
@@ -1019,10 +407,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1831980" />
+      <child nodeId="node-0x1816640" />
     </children>
   </item>
-  <item nodeId="node-0x1831980">
+  <item nodeId="node-0x1816640">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
@@ -1031,10 +419,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1831910" />
+      <child nodeId="node-0x18165d0" />
     </children>
   </item>
-  <item nodeId="node-0x1831910">
+  <item nodeId="node-0x18165d0">
     <command xml:space="preserve"> x branches</command>
     <result xml:space="preserve">Skinny branches dangling from the weak trunk high above.
 
@@ -1043,10 +431,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x18318a0" />
+      <child nodeId="node-0x1816560" />
     </children>
   </item>
-  <item nodeId="node-0x18318a0">
+  <item nodeId="node-0x1816560">
     <command xml:space="preserve">shake tree</command>
     <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
@@ -1055,10 +443,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1831830" />
+      <child nodeId="node-0x18164f0" />
     </children>
   </item>
-  <item nodeId="node-0x1831830">
+  <item nodeId="node-0x18164f0">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
@@ -1067,10 +455,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x18317c0" />
+      <child nodeId="node-0x1816480" />
     </children>
   </item>
-  <item nodeId="node-0x18317c0">
+  <item nodeId="node-0x1816480">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a flexible stick

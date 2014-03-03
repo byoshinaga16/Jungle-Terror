@@ -52,7 +52,7 @@ understand "tree" as palm trees.
 
 The dirt is scenery in the beach. "Dirty dirt."
 
-The Clearing is a room. it is north of the beach. "A wide open grassy clearing that is surrounded by a ring of palm trees. There is a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. Four paths from all directions intersect here."
+The Clearing is a room. it is north of the beach. "A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here."
 
 The grass is scenery in the clearing. "A thin layer of light green grass."
 
@@ -158,3 +158,54 @@ Before listing nondescript items when the player is in the clearing,
 	if the sharp rock is marked for listing,
 		change the sharp rock to not marked for listing. 
 				
+The mud pit is scenery in the clearing. "A small pit of warm, thick mud." 
+
+understand "pit of mud" as mud pit.
+
+understand "mud" as mud pit.
+
+understand "pit" as mud pit.
+
+After examining the mud pit:
+	If the player is not holding the worm:
+		say "You can see a worm on the surface of the mud."
+		
+Before listing nondescript items when the player is in the clearing, 
+	if the worm is marked for listing,
+		change the worm to not marked for listing. 
+
+The worm is an object in the clearing. the description of the worm is "A plump and juicy pink worm."
+
+Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two carried things. Understand the command "connect" as "combine".
+Understand the command "attach" as something new. Understand "attach [something] to [something]" as combining it with.
+The combining it with action has an object called the item built.
+
+Setting action variables for combining something with something: 
+	let X be a list of objects; 
+	add the noun to X; 
+	add the second noun to X; 
+	sort X; 
+	repeat through the Table of Outcome Objects: 
+		let Y be the component list entry; 
+		sort Y; 
+		if X is Y: 
+			now the item built is the result entry.
+Check combining it with: 
+    if the item built is nothing, 
+        say "You can't combine [the noun] and [the second noun] into anything useful." instead.
+Carry out combining it with: 
+    move the item built to the holder of the noun; 
+    remove the noun from play; 
+    remove the second noun from play.
+Report combining it with: 
+    say "You now have [an item built]."
+
+Table of outcome objects
+component list	result
+{fishing line, flexible stick}	tied stick
+{tied stick, worm} 	fishing rod
+
+The tied stick is an object. the description of the tied stick is "A close resemblance to a fishing rod. All you need is bait."
+
+The fishing rod is an object. the description of the fishing rod is "A makeshift and fully-functional fishing rod."
+
