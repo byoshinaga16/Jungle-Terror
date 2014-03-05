@@ -27,12 +27,10 @@ understand "hole" as crab holes.
 
 The rusty key is an object. "An old key that has been rusted by the crisp ocean air. The teeth are formed in an hourglass shape."
 
-After taking the rusty key:
-say "you wipe the sand off the rusty key and put it in your pocket."
-
 After examining crab holes:
-say "Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it's a rusty key.";
-move the rusty key to beach.
+	If the player is not holding the rusty key:
+		say "Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it's a rusty key.";
+		move the rusty key to beach.
 
 The island is scenery in the beach. "You're standing on it!"
 
@@ -204,8 +202,20 @@ Table of outcome objects
 component list	result
 {fishing line, flexible stick}	tied stick
 {tied stick, worm} 	fishing rod
+{wooden handle, sharp rock}	axe
 
 The tied stick is an object. the description of the tied stick is "A close resemblance to a fishing rod. All you need is bait."
 
 The fishing rod is an object. the description of the fishing rod is "A makeshift and fully-functional fishing rod."
+
+The Dirt path is a room. It is west of the clearing. "An old dirt path lined with trees. The path splits in two directions: north towards an old shack, and west towards a cave entrance."
+
+The wooden handle is an object in the dirt path. The description of the wooden handle is "A curved piece of wood that resembles the handle of an axe." 
+
+understand "handle" as wooden handle. 
+
+understand "wood handle" as wooden handle.
+
+The axe is an object. the description of the axe is "A makeshift stone axe made by attaching a sharp rock to a wooden handle. It looks strong enough to break wood."
+
 
