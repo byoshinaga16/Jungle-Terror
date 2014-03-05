@@ -208,7 +208,11 @@ The tied stick is an object. the description of the tied stick is "A close resem
 
 The fishing rod is an object. the description of the fishing rod is "A makeshift and fully-functional fishing rod."
 
-The Dirt path is a room. It is west of the clearing. "An old dirt path lined with trees. The path splits in two directions: north towards an old shack, and west towards a cave entrance."
+The Dirt path is a room. It is south of the wooden door. It is west of the clearing. "An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west."
+
+The hut is scenery in the dirt path. "A round and old wooden shack with a pointed straw roof. The walls of the shack are lined with giant scratches that look like claw marks."
+
+The greenery is scenery in the dirt path. "Various bushes and trees that line the dirt path." 
 
 The wooden handle is an object in the dirt path. The description of the wooden handle is "A curved piece of wood that resembles the handle of an axe." 
 
@@ -216,6 +220,35 @@ understand "handle" as wooden handle.
 
 understand "wood handle" as wooden handle.
 
-The axe is an object. the description of the axe is "A makeshift stone axe made by attaching a sharp rock to a wooden handle. It looks strong enough to break wood."
+The Stone axe is an object. the description of the axe is "A makeshift stone axe made by attaching a sharp rock to a wooden handle. It looks strong enough to break wood."
 
+Understand "axe" as stone axe.
+
+The Old shack is a room. The Old shack is north of the wooden door. "A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd."
+
+The Wooden door is north of the Dirt path and south of the Old shack. The Wooden door is a door. The Wooden door is scenery. The Wooden door is lockable and locked. The Stone axe unlocks the Wooden door.
+
+Instead of going north to the old shack:
+	If the wooden door is locked:
+		say "The wooden door to the hut won't budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.";
+	If the wooden door is unlocked:
+		If the wooden door is closed:
+			say "The door is closed.";
+		If the wooden door is open:
+			move the player to the old shack.
+		
+Breaking is an action applying to one visible thing.	
+understand "Break [the wooden door]" as Breaking.
+			
+Instead of breaking the wooden door:
+	If the player is holding the stone axe:
+		If the wooden door is locked:
+			say "You chop and break the wooden planks. You can now open the door.";
+			now the wooden door is unlocked.;
+	
+		If the wooden door is unlocked:
+			say "It's already unlocked!";
+	If the player is not holding stone axe:
+		say "You don't have anything to break the planks with."
+			
 
