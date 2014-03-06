@@ -307,7 +307,7 @@ understand "mullet" as raw mullet.
 
 understand "baby mullet" as raw mullet.
 
-The Volcano Slope is a room. It is north of the clearing. "The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope."
+The Volcano Slope is a room. It is north of the clearing and south of the hidden door. "The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope."
 
 The small lava pit is scenery in the volcano slope. "A pit filled with molten hot lava. The heat emitted from the pit feels like the heat of a stove." 
 
@@ -328,3 +328,72 @@ Before listing nondescript items when the player is in the volcano slope,
 		change the safe to not marked for listing. 
 
 The safe is a container in the volcano slope. It is a closed openable container. It is locked and lockable. 
+
+The ash is scenery in the volcano slope. "small dusty particles that blanket the slope."
+
+Instead of taking the ash:
+	say "You don't need that!" 
+
+The Hidden door is a door. It is north of the volcano slope and south of the dark tunnel. The hidden door is scenery. The hidden door is locked and lockable. The mysterious stone unlocks the hidden door. The description of the hidden door is "A hidden stone door placed under the underbrush on the volcano slope. In the middle of the door is an indent that is shaped like the front of a skull."
+
+understand "indent" as hidden door.
+
+understand "door" as hidden door.
+
+Instead of going north to the dark tunnel:
+	If the hidden door is locked:
+		say "The hidden door is locked.";
+	If the hidden door is unlocked:
+		If the hidden door is closed:
+			say "The hidden door is closed.";
+		If the hidden door is open:
+			move the player to the dark tunnel.
+
+Placing is an action applying to one visible thing. 
+
+understand "Place [mysterious stone] in hidden door" as placing.
+
+Putting is an action applying to one visible thing.
+
+understand "Put [mysterious stone] in hidden door" as putting:
+	
+After placing the mysterious stone:
+	If the player is holding the mysterious stone:
+		say "You place the mysterious stone in the indent on the hidden door. The stone fits perfectly and you can hear a far away clicking noise.";
+		now the hidden door is unlocked.;
+	If the player is not holding the mysterious stone:
+		say "You have nothing to place in the door."
+		
+After putting the mysterious stone:
+	If the player is holding the mysterious stone:
+		say "You put the mysterious stone in the indent on the hidden door. The stone fits perfectly and you can hear a far away clicking noise.";
+		now the hidden door is unlocked.;
+	If the player is not holding the mysterious stone:
+		say "You have nothing to put in the indent."
+
+The underbrush is scenery in the volcano slope. "Volcanic ferns and skinny trees that are rooted on the slope of the volcano."
+
+understand "plants" as underbrush.
+
+understand "ferns" as underbrush.
+
+understand "trees" as underbrush.
+
+The gate is a door. It is east of the cave entrance and west of the dirt path. The gate is scenery. The gate is locked and lockable. The rusty key unlocks the gate. The description of the gate is "A giant gate that covers the entire mouth of the cave entrance. It's probably here for a reason…"
+
+The Cave entrance is a room. It is west of the locked gate. "A dark and gaping cave entrance. The entire mouth of the cave has been blocked by a locked gate. The gate is littered with warning and danger signs. How eerie…" 
+
+Instead of going west to the cave entrance:
+	If the gate is locked:
+		say "The gate is locked.";
+	If the gate is unlocked:
+		If the gate is closed:
+			say "The gate is closed.";
+		If the gate is open:
+			move the player to the cave entrance.
+
+The mysterious stone is an object. The mysterious stone is in the cave entrance. The description of the mysterious stone is "An odd-looking stone that resembles a human skull."
+
+understand "stone" as mysterious stone.
+
+The Dark tunnel is a room. It is north of the hidden door. "A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights."
