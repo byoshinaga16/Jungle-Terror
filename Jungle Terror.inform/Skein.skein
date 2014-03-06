@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x18522f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1bea4d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1b23dc0" />
-  <item nodeId="node-0x18522f0">
+  <activeNode nodeId="node-0x108c8e90" />
+  <item nodeId="node-0x1bea4d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,87 +12,49 @@ You open your eyes. Your eyesight is blurry and it takes a while for you to real
 
 Jungle Terror
 An Interactive Fiction by Braden Yoshinaga
-Release 1 / Serial number 140305 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140306 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Beach
 A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach.
 
-You can see a fishing line here.
+You can see a thin line here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="174">NO</temporary>
+    <temporary score="757">NO</temporary>
     <children>
-      <child nodeId="node-0x1829bf0" />
-      <child nodeId="node-0x1852340" />
-      <child nodeId="node-0x18dcbf0" />
+      <child nodeId="node-0x1bed7a0" />
+      <child nodeId="node-0x1beb490" />
+      <child nodeId="node-0xbd4b450" />
     </children>
   </item>
-  <item nodeId="node-0x18dcbf0">
-    <command xml:space="preserve">x hole</command>
-    <result xml:space="preserve">Quarter-sized holes that are scattered all around the shore line.
-
-Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it&apos;s a rusty key.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f9cb50" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f9cb50">
-    <command xml:space="preserve">take key</command>
+  <item nodeId="node-0xbd4b450">
+    <command xml:space="preserve">take line</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
     <children>
-      <child nodeId="node-0x6f8b870" />
+      <child nodeId="node-0xa8088a0" />
+      <child nodeId="node-0x1125b780" />
     </children>
   </item>
-  <item nodeId="node-0x6f8b870">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a rusty key
+  <item nodeId="node-0x1125b780">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="560">YES</temporary>
     <children>
-      <child nodeId="node-0x1be10e0" />
+      <child nodeId="node-0xa82fe80" />
     </children>
   </item>
-  <item nodeId="node-0x1be10e0">
-    <command xml:space="preserve">x hole</command>
-    <result xml:space="preserve">Quarter-sized holes that are scattered all around the shore line.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bd21d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bd21d0">
-    <command xml:space="preserve">take fishing line</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bd5960" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bd5960">
+  <item nodeId="node-0xa82fe80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Clearing
@@ -101,50 +63,1537 @@ A wide open grassy clearing that is surrounded by a ring of palm trees. You can 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="560">YES</temporary>
     <children>
-      <child nodeId="node-0x73ad970" />
+      <child nodeId="node-0xf7cfa00" />
     </children>
   </item>
-  <item nodeId="node-0x73ad970">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a sharp rock here.
+  <item nodeId="node-0xf7cfa00">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="560">YES</temporary>
     <children>
-      <child nodeId="node-0x6fb93d0" />
+      <child nodeId="node-0xa90f580" />
     </children>
   </item>
-  <item nodeId="node-0x6fb93d0">
-    <command xml:space="preserve">take sharp rock</command>
+  <item nodeId="node-0xa90f580">
+    <command xml:space="preserve">ake stick</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0xa8082f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa8082f0">
+    <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="560">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb05d0" />
+      <child nodeId="node-0xbd6df80" />
     </children>
   </item>
-  <item nodeId="node-0x1bb05d0">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
+  <item nodeId="node-0xbd6df80">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="560">YES</temporary>
     <children>
-      <child nodeId="node-0x6fb8da0" />
+      <child nodeId="node-0xf711550" />
     </children>
   </item>
-  <item nodeId="node-0x6fb8da0">
+  <item nodeId="node-0xf711550">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">You now have a tied stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0xa808190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa808190">
+    <command xml:space="preserve">combine stick with worm</command>
+    <result xml:space="preserve">You now have a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x18e7180" />
+    </children>
+  </item>
+  <item nodeId="node-0x18e7180">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0xa908bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa908bd0">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0xbdc4ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbdc4ea0">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x11233ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11233ec0">
+    <command xml:space="preserve">x baby mullet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7dd6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7dd6a0">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You already have a fish!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x112310c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112310c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ce5d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ce5d40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x112dfb80" />
+    </children>
+  </item>
+  <item nodeId="node-0x112dfb80">
+    <command xml:space="preserve">x lava pit</command>
+    <result xml:space="preserve">A pit filled with molten hot lava. The heat emitted from the pit feels like the heat of a stove.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x112d9470" />
+    </children>
+  </item>
+  <item nodeId="node-0x112d9470">
+    <command xml:space="preserve">cook mullet</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x112b4a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x112b4a50">
+    <command xml:space="preserve">cook mullet in lava pit</command>
+    <result xml:space="preserve">You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy.
+You have nothing to cook.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x11244020" />
+    </children>
+  </item>
+  <item nodeId="node-0x11244020">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a fillet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x112557a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112557a0">
+    <command xml:space="preserve">x fillet</command>
+    <result xml:space="preserve">You see nothing special about the fillet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0xf740840" />
+    </children>
+  </item>
+  <item nodeId="node-0xf740840">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+    <children>
+      <child nodeId="node-0x1122bc30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1122bc30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+You can see a raw mullet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="559">YES</temporary>
+  </item>
+  <item nodeId="node-0xa8088a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd9990" />
+      <child nodeId="node-0xbd39620" />
+      <child nodeId="node-0xbdc6130" />
+    </children>
+  </item>
+  <item nodeId="node-0xbdc6130">
+    <command xml:space="preserve">shake tre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd85050" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd85050">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd5f700" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd5f700">
+    <command xml:space="preserve">take stick</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c72750" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c72750">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7de2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7de2d0">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">You now have a tied stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xf777da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf777da0">
+    <command xml:space="preserve">combine stick with worm</command>
+    <result xml:space="preserve">You now have a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b06c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b06c40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7cb070" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7cb070">
+    <command xml:space="preserve">x pond</command>
+    <result xml:space="preserve">A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd9b150" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd9b150">
+    <command xml:space="preserve">drop fishing rod</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd5bba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd5bba0">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c5d4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c5d4a0">
+    <command xml:space="preserve">take rod</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cda440" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cda440">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7bd850" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7bd850">
+    <command xml:space="preserve">fish in small ponds</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xb83fd30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb83fd30">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xa915900" />
+    </children>
+  </item>
+  <item nodeId="node-0xa915900">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ccfe60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ccfe60">
+    <command xml:space="preserve">fish in small ponds</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7d3720" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7d3720">
+    <command xml:space="preserve">fishing in small ponds</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xb87a270" />
+    </children>
+  </item>
+  <item nodeId="node-0xb87a270">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="119">YES</temporary>
+  </item>
+  <item nodeId="node-0xbd39620">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x112848a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112848a0">
+    <command xml:space="preserve">take stick</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cf3790" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cf3790">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf720230" />
+      <child nodeId="node-0x1122a510" />
+    </children>
+  </item>
+  <item nodeId="node-0x1122a510">
+    <command xml:space="preserve">combine stick and line</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7c60a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7c60a0">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">You now have a tied stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ce5150" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ce5150">
+    <command xml:space="preserve">combine stick with worm</command>
+    <result xml:space="preserve">You now have a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x1127bf30" />
+      <child nodeId="node-0xf798730" />
+    </children>
+  </item>
+  <item nodeId="node-0xf798730">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7bd220" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7bd220">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x1126d360" />
+    </children>
+  </item>
+  <item nodeId="node-0x1126d360">
+    <command xml:space="preserve">x ponds</command>
+    <result xml:space="preserve">A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x112cfdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112cfdf0">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x112625c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112625c0">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x1125b240" />
+    </children>
+  </item>
+  <item nodeId="node-0x1125b240">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xa824200" />
+    </children>
+  </item>
+  <item nodeId="node-0xa824200">
+    <command xml:space="preserve">x mullet</command>
+    <result xml:space="preserve">A baby mullet that you caught in a pond. Maybe you can cook it somehow.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x112311b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112311b0">
+    <command xml:space="preserve">x raw mullet</command>
+    <result xml:space="preserve">A baby mullet that you caught in a pond. Maybe you can cook it somehow.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x11225e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x11225e30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x112dde40" />
+    </children>
+  </item>
+  <item nodeId="node-0x112dde40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x1128fed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1128fed0">
+    <command xml:space="preserve">cook mullet</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x112176d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112176d0">
+    <command xml:space="preserve">cook mullet in lava pit</command>
+    <result xml:space="preserve">You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf732990" />
+    </children>
+  </item>
+  <item nodeId="node-0xf732990">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a fillet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xb86c350" />
+    </children>
+  </item>
+  <item nodeId="node-0xb86c350">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xa8d6d80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa8d6d80">
+    <command xml:space="preserve">take stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xa820010" />
+    </children>
+  </item>
+  <item nodeId="node-0xa820010">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c04eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c04eb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt path
+An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
+
+You can see a wooden handle here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x108291f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x108291f0">
+    <command xml:space="preserve">take handle</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x11225cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11225cd0">
+    <command xml:space="preserve">combine handle and rock</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7ebd00" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7ebd00">
+    <command xml:space="preserve">combine handle with rock</command>
+    <result xml:space="preserve">You now have a Stone axe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7ce00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7ce00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The wooden door to the hut won&apos;t budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7dab20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7dab20">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the wooden door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xa81c300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa81c300">
+    <command xml:space="preserve">axe</command>
+    <result xml:space="preserve">You unlock the wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7df2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7df2e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The door is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x112187a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112187a0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xa908f70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa908f70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Old shack
+A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd.
+
+You can see a Scientist here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf77d6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf77d6c0">
+    <command xml:space="preserve">talk to scientist</command>
+    <result xml:space="preserve">Food…please…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x108145f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x108145f0">
+    <command xml:space="preserve">give scientist fillet</command>
+    <result xml:space="preserve">The scientist hungrily snatches the fillet out of your hands.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xb897f70" />
+    </children>
+  </item>
+  <item nodeId="node-0xb897f70">
+    <command xml:space="preserve">talk to scientist</command>
+    <result xml:space="preserve">Thank you so much, I was literally dying of starvation. Anyways, if you&apos;re trying to get off this island, there&apos;s a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that&apos;s all I remember…Be careful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7c1360" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7c1360">
+    <command xml:space="preserve">take fillet</command>
+    <result xml:space="preserve">That seems to belong to the Scientist.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x108f8ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x108f8ac0">
+    <command xml:space="preserve">x fillet</command>
+    <result xml:space="preserve">A brown and crispy cooked fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0xa90f520" />
+    </children>
+  </item>
+  <item nodeId="node-0xa90f520">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a special goggles
+  a Stone axe
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="757">YES</temporary>
+    <children>
+      <child nodeId="node-0x108c8e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x108c8e90">
+    <command xml:space="preserve">x goggles</command>
+    <result xml:space="preserve">A pair of very odd-looking goggles.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="756">YES</temporary>
+  </item>
+  <item nodeId="node-0x1127bf30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="572">YES</temporary>
+    <children>
+      <child nodeId="node-0xa824b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa824b90">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="572">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7c04f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7c04f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="572">YES</temporary>
+    <children>
+      <child nodeId="node-0xf728c70" />
+    </children>
+  </item>
+  <item nodeId="node-0xf728c70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
+
+You can see a safe (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="571">YES</temporary>
+  </item>
+  <item nodeId="node-0xf720230">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">You now have a tied stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd5ced0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd5ced0">
+    <command xml:space="preserve">combine stick with bait</command>
+    <result xml:space="preserve">You now have a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0xf70ce30" />
+    </children>
+  </item>
+  <item nodeId="node-0xf70ce30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd6e7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd6e7b0">
+    <command xml:space="preserve">drop rod</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x1122ce60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1122ce60">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You don&apos;t have anything to fish with.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x112c6fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112c6fa0">
+    <command xml:space="preserve">x pond</command>
+    <result xml:space="preserve">A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0xf75cc50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf75cc50">
+    <command xml:space="preserve">take rod</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x11266700" />
+    </children>
+  </item>
+  <item nodeId="node-0x11266700">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8dc890" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8dc890">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd6b1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd6b1d0">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x112a54c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x112a54c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="536">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bd9990">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd8b480" />
+      <child nodeId="node-0x6cdf930" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cdf930">
+    <command xml:space="preserve">hake tree</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xa827800" />
+    </children>
+  </item>
+  <item nodeId="node-0xa827800">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cd5170" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cd5170">
+    <command xml:space="preserve">take stick</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x10826e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10826e30">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">You now have a tied stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x10821c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x10821c50">
+    <command xml:space="preserve">combine stick with worm</command>
+    <result xml:space="preserve">You now have a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b70610" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b70610">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7420b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7420b0">
+    <command xml:space="preserve">x pond</command>
+    <result xml:space="preserve">A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xa824290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa824290">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="130">YES</temporary>
+  </item>
+  <item nodeId="node-0xbd8b480">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x1121e8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1121e8d0">
+    <command xml:space="preserve">take stick</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x11242d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x11242d90">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">You now have a tied stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x11244830" />
+    </children>
+  </item>
+  <item nodeId="node-0x11244830">
+    <command xml:space="preserve">combine stick with worm</command>
+    <result xml:space="preserve">You now have a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd80750" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd80750">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x11211660" />
+    </children>
+  </item>
+  <item nodeId="node-0x11211660">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xa808b50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa808b50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x11224f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x11224f10">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8d8690" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8d8690">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x11282a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x11282a90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xbdd4580" />
+    </children>
+  </item>
+  <item nodeId="node-0xbdd4580">
+    <command xml:space="preserve">cook mullet in lava pit</command>
+    <result xml:space="preserve">You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ce8420" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ce8420">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a fillet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ccc0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ccc0e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cec3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cec3a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xf71f0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf71f0e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c5f2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c5f2d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xb86d460" />
+    </children>
+  </item>
+  <item nodeId="node-0xb86d460">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x11232b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x11232b60">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c79730" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c79730">
+    <command xml:space="preserve">cook mullet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="616">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd7b3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd7b3b0">
+    <command xml:space="preserve">cook mullet in lava pit</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="615">YES</temporary>
+  </item>
+  <item nodeId="node-0x1beb490">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="623">YES</temporary>
+    <children>
+      <child nodeId="node-0x1125ddd0" />
+      <child nodeId="node-0xa914720" />
+      <child nodeId="node-0xbd563e0" />
+      <child nodeId="node-0xa813160" />
+      <child nodeId="node-0xf7e8d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7e8d50">
     <command xml:space="preserve">x pit</command>
     <result xml:space="preserve">A small pit of warm, thick mud.
 
@@ -153,224 +1602,237 @@ You can see a worm on the surface of the mud.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="623">YES</temporary>
     <children>
-      <child nodeId="node-0x1bc73f0" />
+      <child nodeId="node-0xa8143d0" />
     </children>
   </item>
-  <item nodeId="node-0x1bc73f0">
-    <command xml:space="preserve">take worm</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0xa8143d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="623">YES</temporary>
     <children>
-      <child nodeId="node-0x1bc3a40" />
+      <child nodeId="node-0x1881bb0" />
     </children>
   </item>
-  <item nodeId="node-0x1bc3a40">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a worm
-  a sharp rock
-  a fishing line
-  a rusty key
+  <item nodeId="node-0x1881bb0">
+    <command xml:space="preserve">x pit</command>
+    <result xml:space="preserve">A pit filled with molten hot lava. The heat emitted from the pit feels like the heat of a stove.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="622">YES</temporary>
+  </item>
+  <item nodeId="node-0xa813160">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x6f7d030" />
+      <child nodeId="node-0xf7d3770" />
+      <child nodeId="node-0xa8ed8b0" />
+      <child nodeId="node-0x6cddd60" />
     </children>
   </item>
-  <item nodeId="node-0x6f7d030">
+  <item nodeId="node-0x6cddd60">
+    <command xml:space="preserve">fish in small ponds</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0xf71a7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf71a7d0">
+    <command xml:space="preserve">x mullet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x18a0aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18a0aa0">
+    <command xml:space="preserve">break pond</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c755b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c755b0">
+    <command xml:space="preserve">fish pond</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0xf72b100" />
+    </children>
+  </item>
+  <item nodeId="node-0xf72b100">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="143">YES</temporary>
+  </item>
+  <item nodeId="node-0xa8ed8b0">
+    <command xml:space="preserve">fish small ponds</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="136">YES</temporary>
+  </item>
+  <item nodeId="node-0xf7d3770">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You don&apos;t have anything to fish with.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bdc970" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bdc970">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You don&apos;t have anything to fish with.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x1085dc40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1085dc40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x1085c380" />
+    </children>
+  </item>
+  <item nodeId="node-0x1085c380">
     <command xml:space="preserve">shake tree</command>
     <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0xb043f30" />
+      <child nodeId="node-0xa818ff0" />
     </children>
   </item>
-  <item nodeId="node-0xb043f30">
+  <item nodeId="node-0xa818ff0">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x73c10a0" />
+      <child nodeId="node-0x108981c0" />
     </children>
   </item>
-  <item nodeId="node-0x73c10a0">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You shake the feeble trunk but nothing happens.
+  <item nodeId="node-0x108981c0">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x6fc9330" />
+      <child nodeId="node-0xa90ad40" />
     </children>
   </item>
-  <item nodeId="node-0x6fc9330">
-    <command xml:space="preserve">hit tree</command>
-    <result xml:space="preserve">You hit the feeble trunk of the tree but nothing happens.
+  <item nodeId="node-0xa90ad40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach.
+
+You can see a thin line here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0xb0e53f0" />
+      <child nodeId="node-0x6ce4ef0" />
     </children>
   </item>
-  <item nodeId="node-0xb0e53f0">
-    <command xml:space="preserve">combine stick and worm</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+  <item nodeId="node-0x6ce4ef0">
+    <command xml:space="preserve">take line</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1bda940" />
+      <child nodeId="node-0x6c2b470" />
     </children>
   </item>
-  <item nodeId="node-0x1bda940">
-    <command xml:space="preserve">combine stick with worm</command>
-    <result xml:space="preserve">You can&apos;t combine the flexible stick and the worm into anything useful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bd0be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bd0be0">
-    <command xml:space="preserve">combine line and worm</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bce370" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bce370">
-    <command xml:space="preserve">combine line with worm</command>
-    <result xml:space="preserve">You can&apos;t combine the fishing line and the worm into anything useful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x73715d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x73715d0">
+  <item nodeId="node-0x6c2b470">
     <command xml:space="preserve">combine line with stick</command>
     <result xml:space="preserve">You now have a tied stick.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x6f8cf90" />
+      <child nodeId="node-0xf763860" />
     </children>
   </item>
-  <item nodeId="node-0x6f8cf90">
-    <command xml:space="preserve">i stick</command>
-    <result xml:space="preserve">I only understood you as far as wanting to take inventory.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xb049400" />
-    </children>
-  </item>
-  <item nodeId="node-0xb049400">
-    <command xml:space="preserve">x stick</command>
-    <result xml:space="preserve">A close resemblance to a fishing rod. All you need is bait.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x739f230" />
-    </children>
-  </item>
-  <item nodeId="node-0x739f230">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a tied stick
-  a worm
-  a sharp rock
-  a rusty key
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x7367e80" />
-    </children>
-  </item>
-  <item nodeId="node-0x7367e80">
+  <item nodeId="node-0xf763860">
     <command xml:space="preserve">combine stick with worm</command>
     <result xml:space="preserve">You now have a fishing rod.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0xeb6dfb0" />
+      <child nodeId="node-0x6c56630" />
     </children>
   </item>
-  <item nodeId="node-0xeb6dfb0">
-    <command xml:space="preserve">x fishing rod</command>
-    <result xml:space="preserve">A makeshift and fully-functional fishing rod.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xb117380" />
-    </children>
-  </item>
-  <item nodeId="node-0xb117380">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a fishing rod
-  a sharp rock
-  a rusty key
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
-  </item>
-  <item nodeId="node-0x1852340">
+  <item nodeId="node-0x6c56630">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Clearing
@@ -379,429 +1841,354 @@ A wide open grassy clearing that is surrounded by a ring of palm trees. You can 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x6f8a370" />
-      <child nodeId="node-0x1852ad0" />
-      <child nodeId="node-0x18d3fa0" />
+      <child nodeId="node-0xf7cac70" />
     </children>
   </item>
-  <item nodeId="node-0x18d3fa0">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0xf7cac70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x6fb4560" />
-      <child nodeId="node-0x1b52eb0" />
+      <child nodeId="node-0x1080f940" />
     </children>
   </item>
-  <item nodeId="node-0x1b52eb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0xb0237e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb0237e0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-You can see a wooden handle here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3dce40" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3dce40">
-    <command xml:space="preserve">take handle</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0x18df390" />
-    </children>
-  </item>
-  <item nodeId="node-0x18df390">
-    <command xml:space="preserve">combine handle and rock</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0xf356640" />
-    </children>
-  </item>
-  <item nodeId="node-0xf356640">
-    <command xml:space="preserve">combine handle with rock</command>
-    <result xml:space="preserve">You now have a Stone axe.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0xb128670" />
-    </children>
-  </item>
-  <item nodeId="node-0xb128670">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The wooden door to the hut won&apos;t budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0xb01cae0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb01cae0">
-    <command xml:space="preserve">break planks</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0xb04a7c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb04a7c0">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the Stone axe)
-You unlock the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="165">YES</temporary>
-    <children>
-      <child nodeId="node-0xf38bf40" />
-    </children>
-  </item>
-  <item nodeId="node-0xf38bf40">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="164">YES</temporary>
-  </item>
-  <item nodeId="node-0x6fb4560">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-You can see a wooden handle here.
+  <item nodeId="node-0x1080f940">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb6af0" />
+      <child nodeId="node-0xb8b2a60" />
     </children>
   </item>
-  <item nodeId="node-0x1bb6af0">
-    <command xml:space="preserve">take handle</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0xb8b2a60">
+    <command xml:space="preserve">x mullet</command>
+    <result xml:space="preserve">You see nothing special about the mullet.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1bdcf20" />
-      <child nodeId="node-0xeb889d0" />
+      <child nodeId="node-0xb8ce9c0" />
     </children>
   </item>
-  <item nodeId="node-0xeb889d0">
-    <command xml:space="preserve">combine wooden handle with rock</command>
-    <result xml:space="preserve">You now have an axe.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f92b80" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f92b80">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the wooden door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bd9fe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bd9fe0">
-    <command xml:space="preserve">unlock wooden door</command>
-    <result xml:space="preserve">(with the axe)
-You unlock the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0xb010a00" />
-    </children>
-  </item>
-  <item nodeId="node-0xb010a00">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0xb02ba90" />
-    </children>
-  </item>
-  <item nodeId="node-0xb02ba90">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Old shack
-A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bea530" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bea530">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. The path splits in two directions: north towards a hut, and west towards a cave entrance.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bc81c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bc81c0">
-    <command xml:space="preserve">x hut</command>
-    <result xml:space="preserve">A round and old wooden shack with a pointed straw roof. The walls of the shack are lined with giant scratches that look like claw marks.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="77">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bdcf20">
-    <command xml:space="preserve">combine rock with handle</command>
-    <result xml:space="preserve">You now have a Stone axe.
+  <item nodeId="node-0xb8ce9c0">
+    <command xml:space="preserve">fish in small ponds</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="174">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0xb0ea440" />
-      <child nodeId="node-0x1b03850" />
-      <child nodeId="node-0x6fc48d0" />
-      <child nodeId="node-0x1b23dc0" />
+      <child nodeId="node-0x6cc9590" />
     </children>
   </item>
-  <item nodeId="node-0x1b23dc0">
-    <command xml:space="preserve">break door</command>
-    <result xml:space="preserve">You chop and break the wooden planks. You can now open the door.
-It&apos;s already unlocked!
+  <item nodeId="node-0x6cc9590">
+    <command xml:space="preserve">fish in small pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="173">YES</temporary>
-  </item>
-  <item nodeId="node-0x6fc48d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The wooden door to the hut won&apos;t budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="154">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x6f857b0" />
+      <child nodeId="node-0xf771220" />
     </children>
   </item>
-  <item nodeId="node-0x6f857b0">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the Stone axe)
-You unlock the wooden door.
+  <item nodeId="node-0xf771220">
+    <command xml:space="preserve">fish in the pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="154">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0xb1e5f50" />
+      <child nodeId="node-0xb8a77a0" />
     </children>
   </item>
-  <item nodeId="node-0xb1e5f50">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The door is closed.
+  <item nodeId="node-0xb8a77a0">
+    <command xml:space="preserve">fish in the small pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="154">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x73a3950" />
+      <child nodeId="node-0xb87e8b0" />
     </children>
   </item>
-  <item nodeId="node-0x73a3950">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the wooden door.
+  <item nodeId="node-0xb87e8b0">
+    <command xml:space="preserve">thrust in small pond</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="154">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1bcbb10" />
+      <child nodeId="node-0xb843cb0" />
     </children>
   </item>
-  <item nodeId="node-0x1bcbb10">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Old shack
-A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd.
+  <item nodeId="node-0xb843cb0">
+    <command xml:space="preserve">thrust in pond</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="153">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0xb86b060" />
+    </children>
   </item>
-  <item nodeId="node-0x1b03850">
+  <item nodeId="node-0xb86b060">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7498c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7498c0">
+    <command xml:space="preserve">fish the small pond</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd82c80" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd82c80">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c06aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c06aa0">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c244a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c244a0">
+    <command xml:space="preserve">fish in the small pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x189f850" />
+    </children>
+  </item>
+  <item nodeId="node-0x189f850">
+    <command xml:space="preserve">fish in the small pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8b7ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8b7ad0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
-  an axe
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x11238530" />
+    </children>
+  </item>
+  <item nodeId="node-0x11238530">
+    <command xml:space="preserve">fishing in the small ponds</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c4fb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c4fb20">
+    <command xml:space="preserve">spear the pond</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x11255c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x11255c50">
+    <command xml:space="preserve">spear the pond</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0xa823400" />
+    </children>
+  </item>
+  <item nodeId="node-0xa823400">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x11283130" />
+    </children>
+  </item>
+  <item nodeId="node-0x11283130">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8e8ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8e8ee0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0xbdb1470" />
+    </children>
+  </item>
+  <item nodeId="node-0xbdb1470">
+    <command xml:space="preserve">x mullet</command>
+    <result xml:space="preserve">You see nothing special about the mullet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="505">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bddc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bddc20">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">You already have a fish!
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="49">YES</temporary>
+    <temporary score="505">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb5350" />
+      <child nodeId="node-0x112236d0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb5350">
-    <command xml:space="preserve">x axe</command>
-    <result xml:space="preserve">A makeshift stone axe made by attaching a sharp rock to a wooden handle. It looks strong enough to break wood.
+  <item nodeId="node-0x112236d0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="48">YES</temporary>
+    <temporary score="504">YES</temporary>
   </item>
-  <item nodeId="node-0xb0ea440">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the Stone axe)
-You unlock the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="143">YES</temporary>
-    <children>
-      <child nodeId="node-0xb020cc0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb020cc0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="133">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fb0650" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fb0650">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="133">YES</temporary>
-    <children>
-      <child nodeId="node-0xf383920" />
-    </children>
-  </item>
-  <item nodeId="node-0xf383920">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="132">YES</temporary>
-  </item>
-  <item nodeId="node-0x1852ad0">
+  <item nodeId="node-0xbd563e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Beach
 A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach.
 
-You can see a fishing line here.
+You can see a thin line here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a790" />
+      <child nodeId="node-0xf7bbd60" />
     </children>
   </item>
-  <item nodeId="node-0x182a790">
+  <item nodeId="node-0xf7bbd60">
     <command xml:space="preserve">take line</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a740" />
+      <child nodeId="node-0xf7c8930" />
     </children>
   </item>
-  <item nodeId="node-0x182a740">
+  <item nodeId="node-0xf7c8930">
+    <command xml:space="preserve">x line</command>
+    <result xml:space="preserve">A long, tough fishing line that washed up on the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa81e1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa81e1d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Clearing
@@ -810,94 +2197,166 @@ A wide open grassy clearing that is surrounded by a ring of palm trees. You can 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a6d0" />
+      <child nodeId="node-0x6c24520" />
     </children>
   </item>
-  <item nodeId="node-0x182a6d0">
+  <item nodeId="node-0x6c24520">
     <command xml:space="preserve">shake tree</command>
     <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a660" />
+      <child nodeId="node-0xbda3cd0" />
     </children>
   </item>
-  <item nodeId="node-0x182a660">
+  <item nodeId="node-0xbda3cd0">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a570" />
+      <child nodeId="node-0xbd5c760" />
     </children>
   </item>
-  <item nodeId="node-0x182a570">
-    <command xml:space="preserve">take worm</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x182a520" />
-    </children>
-  </item>
-  <item nodeId="node-0x182a520">
+  <item nodeId="node-0xbd5c760">
     <command xml:space="preserve">combine stick with line</command>
     <result xml:space="preserve">You now have a tied stick.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a4d0" />
+      <child nodeId="node-0xf765870" />
     </children>
   </item>
-  <item nodeId="node-0x182a4d0">
-    <command xml:space="preserve">combine stick with worm</command>
+  <item nodeId="node-0xf765870">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a tied stick
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7cef20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7cef20">
+    <command xml:space="preserve">x tied stick</command>
+    <result xml:space="preserve">A close resemblance to a fishing rod. All you need is bait.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7c3a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7c3a80">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd72dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd72dd0">
+    <command xml:space="preserve">combine tied stick with bait</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd41520" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd41520">
+    <command xml:space="preserve">combine tied stick with worm</command>
     <result xml:space="preserve">You now have a fishing rod.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a460" />
+      <child nodeId="node-0xa834d90" />
     </children>
   </item>
-  <item nodeId="node-0x182a460">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a fishing rod
+  <item nodeId="node-0xa834d90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove roots.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x182a3f0" />
+      <child nodeId="node-0x6c1e370" />
     </children>
   </item>
-  <item nodeId="node-0x182a3f0">
-    <command xml:space="preserve">x fishing</command>
-    <result xml:space="preserve">A makeshift and fully-functional fishing rod.
+  <item nodeId="node-0x6c1e370">
+    <command xml:space="preserve">x ponds</command>
+    <result xml:space="preserve">A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="28">YES</temporary>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xa922e30" />
+    </children>
   </item>
-  <item nodeId="node-0x6f8a370">
+  <item nodeId="node-0xa922e30">
+    <command xml:space="preserve">fish in pond</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+  </item>
+  <item nodeId="node-0xa914720">
+    <command xml:space="preserve">take cooked fish</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x18e74e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18e74e0">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cd46e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cd46e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Dirt path
@@ -907,475 +2366,119 @@ You can see a wooden handle here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="168">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x73cec10" />
-      <child nodeId="node-0x1bf6350" />
-      <child nodeId="node-0x1bd0540" />
-      <child nodeId="node-0x18ea050" />
+      <child nodeId="node-0xf738220" />
     </children>
   </item>
-  <item nodeId="node-0x18ea050">
-    <command xml:space="preserve">break door</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="167">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bd0540">
+  <item nodeId="node-0xf738220">
     <command xml:space="preserve">take handle</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0xb0f9740" />
-      <child nodeId="node-0xeb196b0" />
+      <child nodeId="node-0xa80d600" />
     </children>
   </item>
-  <item nodeId="node-0xeb196b0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
-    <children>
-      <child nodeId="node-0x1885a90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1885a90">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
-    <children>
-      <child nodeId="node-0xb13caa0" />
-      <child nodeId="node-0x6fba690" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fba690">
+  <item nodeId="node-0xa80d600">
     <command xml:space="preserve">combine rock with handle</command>
-    <result xml:space="preserve">You now have an axe.
+    <result xml:space="preserve">You now have a Stone axe.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0xebb2b40" />
+      <child nodeId="node-0xa8eb6a0" />
     </children>
   </item>
-  <item nodeId="node-0xebb2b40">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
+  <item nodeId="node-0xa8eb6a0">
+    <command xml:space="preserve">break planks</command>
+    <result xml:space="preserve">You chop and break the wooden planks. You can now open the door.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x6fab780" />
+      <child nodeId="node-0x6c03020" />
     </children>
   </item>
-  <item nodeId="node-0x6fab780">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The wooden door to the hut won&apos;t budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
-    <children>
-      <child nodeId="node-0x1be5850" />
-    </children>
-  </item>
-  <item nodeId="node-0x1be5850">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the axe)
-You unlock the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
-    <children>
-      <child nodeId="node-0xf379a40" />
-    </children>
-  </item>
-  <item nodeId="node-0xf379a40">
+  <item nodeId="node-0x6c03020">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You open the wooden door.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x1b08fd0" />
-      <child nodeId="node-0x18dad70" />
+      <child nodeId="node-0x6c0d500" />
     </children>
   </item>
-  <item nodeId="node-0x18dad70">
-    <command xml:space="preserve">close door</command>
-    <result xml:space="preserve">You close the wooden door.
+  <item nodeId="node-0x6c0d500">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Old shack
+A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd.
+
+You can see a Scientist here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="124">YES</temporary>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0xf37a350" />
+      <child nodeId="node-0x1843090" />
     </children>
   </item>
-  <item nodeId="node-0xf37a350">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">hi
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="123">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b08fd0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0xf38f0e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf38f0e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="105">YES</temporary>
-  </item>
-  <item nodeId="node-0xb13caa0">
-    <command xml:space="preserve">combine rock and handle</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+  <item nodeId="node-0x1843090">
+    <command xml:space="preserve">x scientist</command>
+    <result xml:space="preserve">A scientist?? What are the chances of finding a scientist on a stranded island?? How odd. The scientist is dressed in a ripped white lab coat and tattered black pants.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="94">YES</temporary>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0xb0e7640" />
+      <child nodeId="node-0x1baa240" />
     </children>
   </item>
-  <item nodeId="node-0xb0e7640">
-    <command xml:space="preserve">combine rock with handle</command>
-    <result xml:space="preserve">You now have an axe.
-
+  <item nodeId="node-0x1baa240">
+    <command xml:space="preserve">talk to scientist</command>
+    <result xml:space="preserve">Food…please…
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="94">YES</temporary>
-    <children>
-      <child nodeId="node-0xf377700" />
-    </children>
+    <temporary score="52">YES</temporary>
   </item>
-  <item nodeId="node-0xf377700">
-    <command xml:space="preserve">w</command>
+  <item nodeId="node-0x1125ddd0">
+    <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="94">YES</temporary>
+    <temporary score="619">YES</temporary>
     <children>
-      <child nodeId="node-0xf35ca10" />
+      <child nodeId="node-0x11258420" />
     </children>
   </item>
-  <item nodeId="node-0xf35ca10">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The wooden door to the hut won&apos;t budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="94">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fb6be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fb6be0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The wooden door to the hut won&apos;t budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="94">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bf9130" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bf9130">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the axe)
-You unlock the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="94">YES</temporary>
-    <children>
-      <child nodeId="node-0x1885b20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1885b20">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="94">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb650f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb650f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="93">YES</temporary>
-  </item>
-  <item nodeId="node-0xb0f9740">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xb1dc870" />
-    </children>
-  </item>
-  <item nodeId="node-0xb1dc870">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x73b1790" />
-    </children>
-  </item>
-  <item nodeId="node-0x73b1790">
-    <command xml:space="preserve">x boulders</command>
-    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
-
-You can see a sharp rock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xb0e6cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb0e6cd0">
-    <command xml:space="preserve">take stone</command>
+  <item nodeId="node-0x11258420">
+    <command xml:space="preserve">cook mullet in lava pit</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xb127360" />
-    </children>
+    <temporary score="618">YES</temporary>
   </item>
-  <item nodeId="node-0xb127360">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x73bf7d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x73bf7d0">
-    <command xml:space="preserve">combine rock and handle</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa6990" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa6990">
-    <command xml:space="preserve">combine rock with handle</command>
-    <result xml:space="preserve">You now have an axe.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bac650" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac650">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. The path splits in two directions: north towards an old shack, and west towards a cave entrance.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3597b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3597b0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the wooden door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f6d280" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f6d280">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the wooden door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x737f7d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x737f7d0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  an axe
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xb0e6a10" />
-    </children>
-  </item>
-  <item nodeId="node-0xb0e6a10">
-    <command xml:space="preserve">x axe</command>
-    <result xml:space="preserve">A makeshift stone axe made by attaching a sharp rock to a wooden handle. It looks strong enough to break wood.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xb025010" />
-    </children>
-  </item>
-  <item nodeId="node-0xb025010">
-    <command xml:space="preserve">unlock wooden door</command>
-    <result xml:space="preserve">(with the axe)
-You unlock the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x7366530" />
-    </children>
-  </item>
-  <item nodeId="node-0x7366530">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0xf370d60" />
-    </children>
-  </item>
-  <item nodeId="node-0xf370d60">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Old shack
-A round and old wooden shack with a pointed straw roof. The walls of the shack are lined with giant scratches that look like claw marks.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="66">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bf6350">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">kay
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
-  </item>
-  <item nodeId="node-0x73cec10">
-    <command xml:space="preserve">take wooden handle</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="42">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f63140" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f63140">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a wooden handle
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="41">YES</temporary>
-  </item>
-  <item nodeId="node-0x1829bf0">
+  <item nodeId="node-0x1bed7a0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1384,10 +2487,10 @@ A round and old wooden shack with a pointed straw roof. The walls of the shack a
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1829b80" />
+      <child nodeId="node-0x1bed810" />
     </children>
   </item>
-  <item nodeId="node-0x1829b80">
+  <item nodeId="node-0x1bed810">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Clearing
@@ -1398,10 +2501,10 @@ A wide open grassy clearing that is surrounded by a ring of palm trees. There is
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1829b10" />
+      <child nodeId="node-0x1bed880" />
     </children>
   </item>
-  <item nodeId="node-0x1829b10">
+  <item nodeId="node-0x1bed880">
     <command xml:space="preserve">x tree</command>
     <result xml:space="preserve">A lonely tree that sits in the middle of the clearing. Its trunk is tall and feeble. Its leafless branches sadly slump towards the dirt.
 
@@ -1412,10 +2515,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1829aa0" />
+      <child nodeId="node-0x1bed8f0" />
     </children>
   </item>
-  <item nodeId="node-0x1829aa0">
+  <item nodeId="node-0x1bed8f0">
     <command xml:space="preserve">shake tree</command>
     <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
@@ -1424,10 +2527,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1829a30" />
+      <child nodeId="node-0x1bed960" />
     </children>
   </item>
-  <item nodeId="node-0x1829a30">
+  <item nodeId="node-0x1bed960">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
@@ -1436,10 +2539,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x18299c0" />
+      <child nodeId="node-0x1bed9d0" />
     </children>
   </item>
-  <item nodeId="node-0x18299c0">
+  <item nodeId="node-0x1bed9d0">
     <command xml:space="preserve"> x branches</command>
     <result xml:space="preserve">Skinny branches dangling from the weak trunk high above.
 
@@ -1448,10 +2551,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1829f60" />
+      <child nodeId="node-0x1beda40" />
     </children>
   </item>
-  <item nodeId="node-0x1829f60">
+  <item nodeId="node-0x1beda40">
     <command xml:space="preserve">shake tree</command>
     <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
 
@@ -1460,10 +2563,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1829eb0" />
+      <child nodeId="node-0x1bedab0" />
     </children>
   </item>
-  <item nodeId="node-0x1829eb0">
+  <item nodeId="node-0x1bedab0">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
@@ -1472,10 +2575,10 @@ High above you, way out of reach, you see skinny branches dangling from the weak
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
     <children>
-      <child nodeId="node-0x1829f00" />
+      <child nodeId="node-0x1bedb20" />
     </children>
   </item>
-  <item nodeId="node-0x1829f00">
+  <item nodeId="node-0x1bedb20">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a flexible stick

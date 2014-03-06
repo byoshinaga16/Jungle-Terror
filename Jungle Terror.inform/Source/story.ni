@@ -1,12 +1,14 @@
 "Jungle Terror" by Braden Yoshinaga
 
+Use no scoring.
+
 When play begins: say "You open your eyes. Your eyesight is blurry and it takes a while for you to realize that you are staring straight up at the cloudless blue sky. The faint squawk of birds slowly gets louder as you come back to your senses.  Still in a daze, you slowly sit up and look around. You find yourself sitting on the soft white sand of an empty beach. How in the world did you end up here? Your clothes is tattered and your entire body aches with pain. Carefully, you stand up and walk around, letting the warm sand slip through your bare toes. After examining your surroundings a bit more, you realize that you're on a small Island."
 
 The Beach is a room. "A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach."
 
-The fishing line is in the beach. The description of the fishing line is "A long, tough fishing line that washed up on the beach."
+The thin line is in the beach. The description of the thin line is "A long, tough fishing line that washed up on the beach."
 
-understand "line" as fishing line
+understand "line" as thin line.
 
 The sand is scenery in the beach. "Very fine white sand that is warm to the touch." 
 
@@ -174,6 +176,8 @@ Before listing nondescript items when the player is in the clearing,
 
 The worm is an object in the clearing. the description of the worm is "A plump and juicy pink worm."
 
+understand "bait" as worm.
+
 Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two carried things. Understand the command "connect" as "combine".
 Understand the command "attach" as something new. Understand "attach [something] to [something]" as combining it with.
 The combining it with action has an object called the item built.
@@ -200,7 +204,7 @@ Report combining it with:
 
 Table of outcome objects
 component list	result
-{fishing line, flexible stick}	tied stick
+{thin line, flexible stick}	tied stick
 {tied stick, worm} 	fishing rod
 {wooden handle, sharp rock}	axe
 
@@ -211,6 +215,8 @@ The fishing rod is an object. the description of the fishing rod is "A makeshift
 The Dirt path is a room. It is south of the wooden door. It is west of the clearing. "An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west."
 
 The hut is scenery in the dirt path. "A round and old wooden shack with a pointed straw roof. The walls of the shack are lined with giant scratches that look like claw marks."
+
+understand "shack" as hut.
 
 The greenery is scenery in the dirt path. "Various bushes and trees that line the dirt path." 
 
@@ -226,7 +232,32 @@ Understand "axe" as stone axe.
 
 The Old shack is a room. The Old shack is north of the wooden door. "A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd."
 
-The Wooden door is north of the Dirt path and south of the Old shack. The Wooden door is a door. The Wooden door is scenery. The Wooden door is lockable and locked. The Stone axe unlocks the Wooden door.
+The Scientist is a man in the old shack. The description is "A scientist? What are the chances of finding a scientist on a stranded island? How odd. The scientist is dressed in a ripped white lab coat and tattered black pants." 
+
+Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.
+
+Instead of giving the fillet to the scientist:
+	say "The scientist hungrily snatches the fillet out of your hands.";
+	move fillet to scientist.
+
+Instead of talking to the scientist:
+	If the scientist is not holding the fillet:
+		say "Food…please…";
+	If the scientist is holding the fillet:
+		say "Thank you so much, I was literally dying of starvation. Anyways, if you're trying to get off this island, there's a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that's all I remember…Be careful.";
+		move goggles to player
+		
+The fillet is an object. The description is "A brown and crispy cooked fish."
+
+The special goggles is an object. The description is "A pair of very odd-looking goggles."
+
+understand "goggles" as special goggles. 
+		
+The Wooden door is north of the Dirt path and south of the Old shack. The Wooden door is a door. The Wooden door is scenery. The Wooden door is lockable and locked. The Stone axe unlocks the Wooden door. The description of the wooden door is "A wooden door that is covered in slash marks. Whatever left the marks must've been pretty big…"
+ 
+understand "planks" as wooden door.
+
+understand "plank" as wooden door.
 
 Instead of going north to the old shack:
 	If the wooden door is locked:
@@ -245,10 +276,55 @@ Instead of breaking the wooden door:
 		If the wooden door is locked:
 			say "You chop and break the wooden planks. You can now open the door.";
 			now the wooden door is unlocked.;
-	
-		If the wooden door is unlocked:
-			say "It's already unlocked!";
 	If the player is not holding stone axe:
 		say "You don't have anything to break the planks with."
 			
+The Wetlands is a room. It is east of the clearing. "A series of small ponds surrounded by tall grass and mangrove roots."
 
+The small ponds is scenery in the Wetlands. "A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish."
+
+understand "pond" as small ponds.
+
+understand "ponds" as small ponds. 
+
+fishing is an action applying to one visible thing. 
+
+Understand "fish in [small ponds]" as fishing.
+
+Instead of fishing:
+	If the player is not holding the raw mullet:
+		If the player is holding the fishing rod:
+			say "You throw your line in the pond and wait for a bite. It's not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.";
+			move mullet to wetlands.;
+		If the player is not holding the fishing rod:
+			say "You don't have anything to fish with.";	
+	If the player is holding the raw mullet:
+		say "You already have a fish!"
+
+The raw mullet is an object. The description is "A baby mullet that you caught in a pond. Maybe you can cook it somehow."
+
+understand "mullet" as raw mullet. 
+
+understand "baby mullet" as raw mullet.
+
+The Volcano Slope is a room. It is north of the clearing. "The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope."
+
+The small lava pit is scenery in the volcano slope. "A pit filled with molten hot lava. The heat emitted from the pit feels like the heat of a stove." 
+
+understand "pit" as lava pit.
+
+Cooking is an action applying to one visible thing. 
+
+Understand "Cook [mullet] in lava pit" as cooking.
+
+Instead of cooking:
+	If the player is holding the raw mullet:
+		say "You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy.";
+		move fillet to player;
+		move the mullet to the safe.
+		
+Before listing nondescript items when the player is in the volcano slope, 
+	if the safe is marked for listing,
+		change the safe to not marked for listing. 
+
+The safe is a container in the volcano slope. It is a closed openable container. It is locked and lockable. 
