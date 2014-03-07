@@ -27,7 +27,7 @@ understand "holes" as crab holes.
 
 understand "hole" as crab holes.
 
-The rusty key is an object. "An old key that has been rusted by the crisp ocean air. The teeth are formed in an hourglass shape."
+The rusty key is an object. The description is "An old key that has been rusted by the crisp ocean air. The teeth are formed in an hourglass shape."
 
 After examining crab holes:
 	If the player is not holding the rusty key:
@@ -158,7 +158,7 @@ Before listing nondescript items when the player is in the clearing,
 	if the sharp rock is marked for listing,
 		change the sharp rock to not marked for listing. 
 				
-The mud pit is scenery in the clearing. "A small pit of warm, thick mud." 
+The mud pit is scenery in the clearing. "A small pit filled with warm, thick mud." 
 
 understand "pit of mud" as mud pit.
 
@@ -207,6 +207,22 @@ component list	result
 {thin line, flexible stick}	tied stick
 {tied stick, worm} 	fishing rod
 {wooden handle, sharp rock}	axe
+{vial x, vial y}	battery fluid
+{vial x, vial z}	toxic gas
+{vial y, vial z}	volatile substance
+{uncharged battery, battery fluid}	charged battery
+
+An every turn rule: 
+If the player is carrying the toxic gas,
+end the game saying  "You created toxic gas and have died of suffocation" 
+
+Toxic gas is an object.
+
+An every turn rule:
+If the player is carrying the volatile substance,
+end the game saying "You created a volatile substance and died of an explosion"
+
+volatile substance is an object.
 
 The tied stick is an object. the description of the tied stick is "A close resemblance to a fishing rod. All you need is bait."
 
@@ -249,7 +265,7 @@ Instead of talking to the scientist:
 		
 The fillet is an object. The description is "A brown and crispy cooked fish."
 
-The special goggles is an object. The description is "A pair of very odd-looking goggles."
+The special goggles is a wearable object. The description is "A pair of very odd-looking goggles."
 
 understand "goggles" as special goggles. 
 		
@@ -261,7 +277,7 @@ understand "plank" as wooden door.
 
 Instead of going north to the old shack:
 	If the wooden door is locked:
-		say "The wooden door to the hut won't budge. It is locked with wooden planks nailed to the front of the door. Maybe you could somehow break them.";
+		say "The wooden door to the hut won't budge. It is locked with wooden planks that are nailed to the front of the door. Maybe you could somehow break them.";
 	If the wooden door is unlocked:
 		If the wooden door is closed:
 			say "The door is closed.";
@@ -270,7 +286,10 @@ Instead of going north to the old shack:
 		
 Breaking is an action applying to one visible thing.	
 understand "Break [the wooden door]" as Breaking.
-			
+	
+Chopping is an action applying to one visible thing.
+understand "Chop [the wooden door]" as Chopping.
+
 Instead of breaking the wooden door:
 	If the player is holding the stone axe:
 		If the wooden door is locked:
@@ -279,7 +298,23 @@ Instead of breaking the wooden door:
 	If the player is not holding stone axe:
 		say "You don't have anything to break the planks with."
 			
-The Wetlands is a room. It is east of the clearing. "A series of small ponds surrounded by tall grass and mangrove roots."
+Instead of Chopping the wooden door:
+	If the player is holding the stone axe:
+		If the wooden door is locked:
+			say "You chop and break the wooden planks. You can now open the door.";
+			now the wooden door is unlocked.;
+	If the player is not holding stone axe:
+		say "You don't have anything to chop the planks with."
+
+Instead of Cutting the wooden door:
+	If the player is holding the stone axe:
+		If the wooden door is locked:
+			say "You cut and break the wooden planks. You can now open the door.";
+			now the wooden door is unlocked.;
+	If the player is not holding stone axe:
+		say "You don't have anything to cut the planks with."
+
+The Wetlands is a room. It is east of the clearing. "A series of small ponds surrounded by tall grass and mangrove roots. A lava tube is to the north."
 
 The small ponds is scenery in the Wetlands. "A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish."
 
@@ -315,7 +350,7 @@ understand "pit" as lava pit.
 
 Cooking is an action applying to one visible thing. 
 
-Understand "Cook [mullet] in lava pit" as cooking.
+Understand "Cook mullet in [lava pit]" as cooking.
 
 Instead of cooking:
 	If the player is holding the raw mullet:
@@ -379,7 +414,7 @@ understand "ferns" as underbrush.
 
 understand "trees" as underbrush.
 
-The gate is a door. It is east of the cave entrance and west of the dirt path. The gate is scenery. The gate is locked and lockable. The rusty key unlocks the gate. The description of the gate is "A giant gate that covers the entire mouth of the cave entrance. It's probably here for a reason…"
+The gate is a door. It is east of the cave entrance and west of the dirt path. The gate is scenery. The gate is locked and lockable. The rusty key unlocks the gate. The description of the gate is "A giant gate that covers the entire mouth of the cave entrance. On the front of the gate is a keyhole in the shape of an hourglass. This gate is probably here for a reason…"
 
 The Cave entrance is a room. It is west of the locked gate. "A dark and gaping cave entrance. The entire mouth of the cave has been blocked by a locked gate. The gate is littered with warning and danger signs. How eerie…" 
 
@@ -396,4 +431,136 @@ The mysterious stone is an object. The mysterious stone is in the cave entrance.
 
 understand "stone" as mysterious stone.
 
-The Dark tunnel is a room. It is north of the hidden door. "A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights."
+The Dark tunnel is a room. It is north of the hidden door, west of the east lab door, and south of the north lab door. "A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights. Furthur down the tunnel, there are two large metal doors. One is to the north and one is to the east. There is an electronic keypad mounted on the wall between the two doors."
+
+The Lava tube is a room. It is north of the wetlands and east of the volcano slope. "An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls."
+
+The strange markings is scenery in the lava tube. The description is "Cave paintings and hieroglyphs that look to have been engraved into the rock wall long ago. There are also some faint scratches that look out of place."
+
+understand "engravings" as strange markings.
+
+understand "paintings" as strange markings.
+
+understand "wall" as strange markings.
+
+The code is an object. The description of the code is "A leaf with the number '133716' scratched in."
+
+Instead of examining the strange markings:
+	If the player is not holding the code:
+		If the player is wearing the goggles:
+			say "The special goggles filter the markings on the wall, leaving only the faint scratches visible. You can clearly make out the number '133716' engraved in the wall. You pick up a leaf and scratch the number in with your fingernail. You put the leaf in your pocket.";
+			move the code to the player.;
+		If the player is not wearing the goggles:
+			say "Cave paintings and hieroglyphs that look to have been engraved into the rock wall long ago. There are also some faint scratches that look out of place.";
+	Otherwise:
+		say "Old cave paintings with the number '133716' etched in behind."
+		
+The East metal door is a door. It is east of the dark tunnel and west of the Secret lab. The description of the east metal door is "A metal door that slides open from the middle." The east metal door is locked and lockable. The east metal door is scenery.
+
+Instead of going east to the secret lab:
+	If the east metal door is locked:
+		say "The metal door is locked.";
+	If the east metal door is unlocked:
+		If the east metal door is closed:
+			say "The hidden door is closed.";
+		If the east metal door is open:
+			move the player to the secret lab.
+
+The North metal door is a door. It is north of the dark tunnel and south of the underground cove. The description of the north metal door is "A metal door that slides open from the middle." The north metal door is locked and lockable. The north metal door is scenery.
+
+Instead of going north to the underground cove:
+	If the north metal door is locked:
+		say "The metal door is locked.";
+	If the north metal door is unlocked:
+		If the north metal door is closed:
+			say "The metal door is closed.";
+		If the north metal door is open:
+			move the player to the underground cove.
+
+The Electronic keypad is scenery in the dark tunnel. "A small electric keypad located on the wall between the north and east lab doors. Located on the keypad are ten buttons: one for every number from 0-9." 
+
+understand "keypad" as electronic keypad.
+
+Pinching is an action applying to one visible thing.
+
+understand "use [electronic keypad]" as pinching.
+
+understand "enter code into [electronic keypad]" as pinching.
+
+understand "enter code in [electronic keypad]" as pinching.
+
+understand "put code in [electronic keypad]" as pinching.
+
+understand "put code into [electronic keypad]" as pinching.
+
+understand "enter 133716 into [electronic keypad]" as pinching.
+
+understand "put 133716 into [electronic keypad]" as pinching.
+
+Instead of pinching:
+	If the north metal door is locked:
+		If the player is holding the code:
+			say "You enter the number '133716' into the electronic keypad. After a while, you hear a small beeping sound coming from both the north and east metal doors. As soon as the beeping stops, both doors slide open with a puff of white mist.";
+			now the east metal door is unlocked;
+			now the north metal door is unlocked;
+			now the east metal door is open;
+			now the north metal door is open.;
+		If the player is not holding the code:
+			say "What in the world do i enter into the keypad?"
+
+The Secret lab is a room. It is east of the east lab door and south of the experiment room. The description of the secret lab is "A secret lab built under a volcano? Sounds like something straight out of a sci-fi movie! Flasks and beakers of different shapes and sizes line the shelves and tabletops. Rows of beeping machines are located in the far corner of the lab."
+
+The uncharged battery is an object. The uncharged battery is in the secret lab. The description of the uncharged battery is "A big and heavy battery that is too big for any normal electronic device. The battery is dead but might be refillable. On the side of the battery is a label that reads: x+y."
+
+The key card is an object. The key card is in the secret lab. The description of the key card is "A key card that once belonged to a scientist."
+
+understand "battery" as uncharged battery.
+
+The Experiment room is a room. It is north of the Secret Lab and east of the Underground cove. The description of the experiment room is "A dark room packed with empty animal pens and cages. Giant claw marks stretch across the blood-stained walls. There are three large liquid-filled body capsules sit in the middle of the room. Next to one of the capsules is a small sample safe."
+
+The sample safe is a container. The sample safe is in the experiment room. The sample safe is lockable and locked. The key card unlocks the sample safe. The description of the sample safe is "A small glass sample safe that contains three liquid-filled vials labeled x, y, and z. There is a card slot on the safe door."
+
+understand "z" as vial z.
+
+understand "safe" as sample safe.
+
+Vial x is an object. Vial x is in the sample safe. The description of Vial x is "Liquid X."
+
+understand "x" as vial x.
+
+Vial y is an object. Vial y is in the sample safe. The description of Vial y is "Liquid Y."
+
+understand "y" as vial y.
+
+Vial z is an object. Vial z is in the sample safe. The description of Vial z is "Liquid Z."
+
+battery fluid is an object. The description of the battery fluid is "Fluid to fuel a battery."
+
+understand "fluid" as battery fluid.
+
+the charged battery is an object. the description of the charged battery is "A fully charged battery."
+
+The Underground cove is a room. It is west of the experiment room and north of the north lab door. The description of the underground cove is "A hidden cove where the ocean flows underneath the volcano. This cove serves as a secret lab entrance for boats and other ocean vehicles. There is a small submarine floating in the water near some tall rocks." 
+
+The Broken submarine is a container in the underground cove. The broken submarine is open. The description of the broken submarine is "A broken one-passenger submarine bobbing in the water. There is an empty slot near the engine. Maybe the submarine can be fixed…" 
+
+understand "small submarine" as broken submarine.
+
+understand "small sub" as broken submarine.
+
+understand "sub" as broken submarine.
+
+understand "submarine" as broken submarine.
+
+Fixing is an action applying to one visible thing.
+
+understand "fix [broken submarine]" as fixing.
+
+understand "place battery in [broken submarine]" as fixing.
+
+understand "put battery in [broken submarine]" as fixing.
+
+Instead of fixing:
+	say "You plug the charged battery into the empty space next to the engine. You climb into the submarine and start the engine. The propeller successfuly starts and you begin your descent away from the island.";
+	end the game in victory
+	
