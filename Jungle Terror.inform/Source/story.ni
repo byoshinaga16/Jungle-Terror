@@ -284,11 +284,17 @@ Instead of going north to the old shack:
 		If the wooden door is open:
 			move the player to the old shack.
 		
-Breaking is an action applying to one visible thing.	
-understand "Break [the wooden door]" as Breaking.
+Breaking is an action applying to two visible things.	
+understand "break [something] with [something]" as Breaking.
 	
 Chopping is an action applying to one visible thing.
 understand "Chop [the wooden door]" as Chopping.
+
+Check breaking:
+	if the noun is the wooden door:
+		if the noun is the stone axe:
+			say "You chop and break the wooden planks and can now open the door.";
+			now the wooden door is unlocked.
 
 Instead of breaking the wooden door:
 	If the player is holding the stone axe:
