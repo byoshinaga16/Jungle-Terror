@@ -127,14 +127,14 @@ instead of shaking the lone tree:
 	If the player is holding the flexible stick:
 		say "You shake the feeble trunk but nothing happens.";
 	If the player is not holding the flexible stick:
-		say "You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
+		say "You grab hold of the feeble trunk and shake it gently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
 		move the flexible stick to the Clearing.
 		
 instead of kicking the lone tree:
 	If the player is holding the flexible stick:
 		say "You kick the feeble trunk but nothing happens.";
 	If the player is not holding the flexible stick:
-		say "You kick feeble trunk. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
+		say "You kick the feeble trunk. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
 		move the flexible stick to the Clearing.
 
 Kicking is an action applying to one visible thing.
@@ -168,7 +168,7 @@ Instead of hitting tree:
 	If the player is holding the flexible stick:
 		say "You hit the feeble trunk of the tree but nothing happens.";
 	If the player is not holding the flexible stick:
-		say "You hit the feeble trunk of the tree. A skinny branch detaches itself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
+		say "You gently hit the feeble trunk of the tree. A skinny branch detaches itself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.";
 		move the flexible stick to the Clearing.
 		
 Instead of cutting branches:
@@ -403,6 +403,8 @@ understand "cooked fish" as cooked mullet.
 
 understand "fish" as raw mullet.
 
+understand "cooked fish" as cooked mullet.
+
 Instead of eating the cooked mullet:
 	say "You're not hungry at the moment."
 	
@@ -523,11 +525,11 @@ Understand "fish in [small ponds] with rod" as fishing.
 Instead of fishing:
 	If the player is not holding the raw mullet:
 		If the player is holding the fishing rod:
-			say "You throw your line in the pond and wait for a bite. It's not long until you feel something tugging on your line. You pull in your line and see a raw mullet on the end.";
-			move the raw mullet to Wetlands.;
+			say "You throw your line in the pond and wait for a bite. It's not long until you feel something tugging on your line. You pull in your line and take the raw mullet on the end.";
+			move the raw mullet to player.;
 		If the player is not holding the fishing rod:
 			say "You don't have anything to fish with.";	
-	If the player is holding the raw mullet:
+	Otherwise:
 		say "You already have a fish!"
 
 The raw mullet is an object. The description is "A baby mullet that you caught in a pond. Maybe you can cook it somehow."
@@ -571,7 +573,7 @@ Instead of cooking:
 	If the player is holding the raw mullet:
 		say "You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy. You now have a cooked mullet.";
 		move cooked mullet to player;
-		move the raw mullet to the safe.
+		remove the raw mullet from play.
 		
 Before listing nondescript items when the player is in the Volcano Slope, 
 	if the safe is marked for listing,

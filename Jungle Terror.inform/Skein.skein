@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1830170" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xe87bf80" />
+  <activeNode nodeId="node-0xeef0700" />
   <item nodeId="node-0x1830170">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -10,9 +10,9 @@
 
 You open your eyes. Your eyesight is blurry and it takes a while for you to realize that you are staring straight up at the cloudless blue sky. The faint squawk of birds slowly gets louder as you come back to your senses.  Still in a daze, you slowly sit up and look around. You find yourself sitting on the soft white sand of an empty beach. How in the world did you end up here? Your clothes is tattered and your entire body aches with pain. Carefully, you stand up and walk around, letting the warm sand slip through your bare toes. After examining your surroundings a bit more, you realize that you&apos;re on a small Island.
 
-Jungle Terror
+Trouble in the Tropics
 An Interactive Fiction by Braden Yoshinaga
-Release 1 / Serial number 140309 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140310 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Beach
 A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach. The clearing is to the north.
@@ -22,15 +22,287 @@ You can see a thin line here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="2201">NO</temporary>
+    <temporary score="2630">NO</temporary>
     <children>
+      <child nodeId="node-0xee1dde0" />
       <child nodeId="node-0xb5da6d0" />
       <child nodeId="node-0xe8ddae0" />
       <child nodeId="node-0x18301e0" />
       <child nodeId="node-0xe8c40c0" />
       <child nodeId="node-0x6f9feb0" />
       <child nodeId="node-0x6fa3410" />
+      <child nodeId="node-0xee2ae80" />
     </children>
+  </item>
+  <item nodeId="node-0xee2ae80">
+    <command xml:space="preserve">x line</command>
+    <result xml:space="preserve">A long, tough fishing line that washed up on the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xedf9ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xedf9ef0">
+    <command xml:space="preserve">eat line</command>
+    <result xml:space="preserve">(first taking the thin line)
+That&apos;s plainly inedible.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf301700" />
+    </children>
+  </item>
+  <item nodeId="node-0xf301700">
+    <command xml:space="preserve">get line</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3cc490" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3cc490">
+    <command xml:space="preserve">talk to line</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3132c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3132c0">
+    <command xml:space="preserve">walk</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0x1027b780" />
+    </children>
+  </item>
+  <item nodeId="node-0x1027b780">
+    <command xml:space="preserve">walk foward</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3eea10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3eea10">
+    <command xml:space="preserve">walk forward</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xb507aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb507aa0">
+    <command xml:space="preserve">walk north</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0x1837750" />
+    </children>
+  </item>
+  <item nodeId="node-0x1837750">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3e7b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3e7b40">
+    <command xml:space="preserve">swim in lava</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf363a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xf363a70">
+    <command xml:space="preserve">go to lava</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf344ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf344ff0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Lava Tube
+An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf314a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf314a20">
+    <command xml:space="preserve">look at wall</command>
+    <result xml:space="preserve">Cave paintings and hieroglyphs that look to have been engraved into the rock wall long ago. There are also some faint scratches that look out of place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3e00e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3e00e0">
+    <command xml:space="preserve">take wall</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e0f710" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e0f710">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">Cave paintings and hieroglyphs that look to have been engraved into the rock wall long ago. There are also some faint scratches that look out of place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3097b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3097b0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0x1812b20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1812b20">
+    <command xml:space="preserve">x plants</command>
+    <result xml:space="preserve">Mangrove plants that are elevated above the ground on their tall roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ea7150" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ea7150">
+    <command xml:space="preserve">take plants</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xed33160" />
+    </children>
+  </item>
+  <item nodeId="node-0xed33160">
+    <command xml:space="preserve">give me mangos</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f1c9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f1c9a0">
+    <command xml:space="preserve">give me win</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf34f7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf34f7a0">
+    <command xml:space="preserve">bad game</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2490">YES</temporary>
+    <children>
+      <child nodeId="node-0xf300f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf300f10">
+    <command xml:space="preserve">i quit</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take inventory.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2489">YES</temporary>
   </item>
   <item nodeId="node-0x6fa3410">
     <command xml:space="preserve">n</command>
@@ -38,15 +310,599 @@ You can see a thin line here.
 Clearing
 A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
 
+You must supply a noun.
+
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1911">YES</temporary>
+    <temporary score="2630">YES</temporary>
     <children>
       <child nodeId="node-0xe8cb420" />
-      <child nodeId="node-0xe8d4d50" />
       <child nodeId="node-0xf3981b0" />
+      <child nodeId="node-0xb40fb60" />
+      <child nodeId="node-0xf3a97b0" />
     </children>
+  </item>
+  <item nodeId="node-0xf3a97b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e2dae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e2dae0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xf372d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xf372d60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach. The clearing is to the north.
+
+You can see a thin line here.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xf303980" />
+    </children>
+  </item>
+  <item nodeId="node-0xf303980">
+    <command xml:space="preserve">x hole</command>
+    <result xml:space="preserve">Quarter-sized holes that are scattered all around the shore line.
+
+Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it&apos;s a rusty key.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fd24b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fd24b0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xe86d280" />
+    </children>
+  </item>
+  <item nodeId="node-0xe86d280">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026c740" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026c740">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+You can see a wooden handle here.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xb4d1c40" />
+    </children>
+  </item>
+  <item nodeId="node-0xb4d1c40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The gate at the cave entrance is locked.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aa68960" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aa68960">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock the Gate.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xf31f940" />
+    </children>
+  </item>
+  <item nodeId="node-0xf31f940">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">You open the Gate.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aaa4260" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aaa4260">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Cave
+A dark and spacious cave that seems to extend much farther undergound. The only sound that can be heard here is the water droplets falling from the ceiling. The dirt path is to the east.
+
+You can see a mysterious stone and Bob here.
+
+&quot;Hey, I&apos;m bored,&quot; Bob says. &quot;Let&apos;s go for a ramble.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x7047390" />
+    </children>
+  </item>
+  <item nodeId="node-0x7047390">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&quot;Hey, I&apos;m bored,&quot; Bob says. &quot;Let&apos;s go for a ramble.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x102ebc90" />
+    </children>
+  </item>
+  <item nodeId="node-0x102ebc90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&quot;Hey, I&apos;m bored,&quot; Bob says. &quot;Let&apos;s go for a ramble.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x102d53c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102d53c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+You can see a wooden handle here.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e84e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e84e00">
+    <command xml:space="preserve">x handle</command>
+    <result xml:space="preserve">A curved piece of wood that resembles the handle of an axe.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3b4090" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3b4090">
+    <command xml:space="preserve">x bobo</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x10273410" />
+    </children>
+  </item>
+  <item nodeId="node-0x10273410">
+    <command xml:space="preserve">x bob</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x18072c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18072c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Cave
+A dark and spacious cave that seems to extend much farther undergound. The only sound that can be heard here is the water droplets falling from the ceiling. The dirt path is to the east.
+
+You can see a mysterious stone and Bob here.
+
+&quot;Hey, I&apos;m bored,&quot; Bob says. &quot;Let&apos;s go for a ramble.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0x102e6bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102e6bf0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+You can see a wooden handle here.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8d5790" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8d5790">
+    <command xml:space="preserve">x handle</command>
+    <result xml:space="preserve">A curved piece of wood that resembles the handle of an axe.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xf37d940" />
+    </children>
+  </item>
+  <item nodeId="node-0xf37d940">
+    <command xml:space="preserve">x bob</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xf37dfc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf37dfc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xb4f1410" />
+    </children>
+  </item>
+  <item nodeId="node-0xb4f1410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+You can see a wooden handle here.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2630">YES</temporary>
+    <children>
+      <child nodeId="node-0xeef0700" />
+    </children>
+  </item>
+  <item nodeId="node-0xeef0700">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Cave
+A dark and spacious cave that seems to extend much farther undergound. The only sound that can be heard here is the water droplets falling from the ceiling. The dirt path is to the east.
+
+You can see a mysterious stone and Bob here.
+
+&quot;Hey, I&apos;m bored,&quot; Bob says. &quot;Let&apos;s go for a ramble.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2629">YES</temporary>
+  </item>
+  <item nodeId="node-0xb40fb60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aa42ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aa42ac0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ee5a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ee5a00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+You can see a wooden handle here.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aa03e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aa03e70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The gate at the cave entrance is locked.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xf390100" />
+    </children>
+  </item>
+  <item nodeId="node-0xf390100">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3b3110" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3b3110">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach. The clearing is to the north.
+
+You can see a thin line here.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0x182acd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x182acd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8fa950" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8fa950">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xf361620" />
+    </children>
+  </item>
+  <item nodeId="node-0xf361620">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aa078d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aa078d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8f3b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8f3b30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xe877d80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe877d80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3beaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3beaa0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2585">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3b47a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3b47a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2584">YES</temporary>
   </item>
   <item nodeId="node-0xf3981b0">
     <command xml:space="preserve">x rocks</command>
@@ -879,80 +1735,6 @@ The slope of a towering active volcano in the middle of the island. The slope is
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1910">YES</temporary>
-  </item>
-  <item nodeId="node-0xe8d4d50">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1097">YES</temporary>
-    <children>
-      <child nodeId="node-0xe89d0b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe89d0b0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt Path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-You can see a wooden handle here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1097">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8a0f90" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8a0f90">
-    <command xml:space="preserve">ake handle</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1097">YES</temporary>
-    <children>
-      <child nodeId="node-0xf38cca0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf38cca0">
-    <command xml:space="preserve">take handle</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1097">YES</temporary>
-    <children>
-      <child nodeId="node-0xb4e9120" />
-    </children>
-  </item>
-  <item nodeId="node-0xb4e9120">
-    <command xml:space="preserve">combine handle with rock</command>
-    <result xml:space="preserve">You shove the sharp rock into the wooden handle. You have created a stone axe.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1097">YES</temporary>
-    <children>
-      <child nodeId="node-0xb512690" />
-    </children>
-  </item>
-  <item nodeId="node-0xb512690">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a Stone axe
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1096">YES</temporary>
   </item>
   <item nodeId="node-0xe8cb420">
     <command xml:space="preserve">kick lone tree</command>
@@ -2294,7 +3076,6 @@ You can see a wooden handle here.
     <changed>NO</changed>
     <temporary score="1971">YES</temporary>
     <children>
-      <child nodeId="node-0x6fa0af0" />
       <child nodeId="node-0x6e13450" />
     </children>
   </item>
@@ -2500,1198 +3281,6 @@ A dark tunnel dug under the slope of the volcano that looks to be man-made. The 
     <changed>NO</changed>
     <temporary score="1970">YES</temporary>
   </item>
-  <item nodeId="node-0x6fa0af0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The gate is locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0b60" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0b60">
-    <command xml:space="preserve">unlock gate</command>
-    <result xml:space="preserve">(with the rusty key)
-You unlock the gate.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0bd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0bd0">
-    <command xml:space="preserve">open gate</command>
-    <result xml:space="preserve">You open the gate.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0c40" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0c40">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0cb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0cb0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">cave entrance
-A dark and gaping cave entrance. The entire mouth of the cave has been blocked by a locked gate. The gate is littered with warning and danger signs. How eerie…
-
-You can see a mysterious stone here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0d20" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0d20">
-    <command xml:space="preserve">take stone</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0d90" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0d90">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-You can see a wooden handle here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0e00" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0e00">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0e70" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0e70">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0ee0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0ee0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Volcano Slope
-The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0f50" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0f50">
-    <command xml:space="preserve">unlock hidden door</command>
-    <result xml:space="preserve">What do you want to unlock the hidden door with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0fc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0fc0">
-    <command xml:space="preserve">stone</command>
-    <result xml:space="preserve">You unlock the hidden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1030" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1030">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The hidden door is closed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa10a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa10a0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the hidden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1110" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1110">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">dark tunnel
-A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights. Furthur down the tunnel, there are two large metal doors. One is to the north and one is to the east. There is an electronic keypad mounted on the wall between the two doors.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1180" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1180">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The metal door is locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa11f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa11f0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The metal door is locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1260" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1260">
-    <command xml:space="preserve">x keypad</command>
-    <result xml:space="preserve">A small electric keypad located on the wall between the north and east lab doors. Located on the keypad are ten buttons: one for every number from 0-9.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa12d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa12d0">
-    <command xml:space="preserve">enter 133716 in the keypad</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1340" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1340">
-    <command xml:space="preserve">enter 13316 into the keypad</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa13b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa13b0">
-    <command xml:space="preserve">enter code into keypad</command>
-    <result xml:space="preserve">What in the world do i enter into the keypad?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1420" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1420">
-    <command xml:space="preserve">enter code into the keypad</command>
-    <result xml:space="preserve">What in the world do i enter into the keypad?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1490" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1490">
-    <command xml:space="preserve">put code in electronic keypad</command>
-    <result xml:space="preserve">What in the world do i enter into the keypad?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1500" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1500">
-    <command xml:space="preserve">enter code</command>
-    <result xml:space="preserve">(into the Electronic keypad)
-What in the world do i enter into the keypad?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1570" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1570">
-    <command xml:space="preserve">enter the code</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa15e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa15e0">
-    <command xml:space="preserve">enter code into the electronic keypad</command>
-    <result xml:space="preserve">What in the world do i enter into the keypad?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1650" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1650">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Volcano Slope
-The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa16c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa16c0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1730" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1730">
-    <command xml:space="preserve">take stone</command>
-    <result xml:space="preserve">You already have that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa17a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa17a0">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1810" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1810">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1880" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1880">
-    <command xml:space="preserve">take stick</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa18f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa18f0">
-    <command xml:space="preserve">take worm</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1960" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1960">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Beach
-A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach.
-
-You can see a thin line here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa19d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa19d0">
-    <command xml:space="preserve">take line</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1a40" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1a40">
-    <command xml:space="preserve">combine stick and line</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1ab0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1ab0">
-    <command xml:space="preserve">combine stick with line</command>
-    <result xml:space="preserve">You now have a tied stick.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1b20" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1b20">
-    <command xml:space="preserve">combine stick with worm</command>
-    <result xml:space="preserve">You now have a fishing rod.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1b90" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1b90">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1c00" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1c00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Wetlands
-A series of small ponds surrounded by tall grass and mangrove roots. A lava tube is to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1c70" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1c70">
-    <command xml:space="preserve">fish in pond</command>
-    <result xml:space="preserve">You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a baby mullet on the end.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1ce0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1ce0">
-    <command xml:space="preserve">take mullet</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1d50" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1d50">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1dc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1dc0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1e30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1e30">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Volcano Slope
-The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1ea0">
-    <command xml:space="preserve">cook mullet in lava pit</command>
-    <result xml:space="preserve">You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1f10" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1f10">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1f80" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1f80">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-You can see a wooden handle here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa1ff0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1ff0">
-    <command xml:space="preserve">take handle</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2060" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2060">
-    <command xml:space="preserve">combine rock with handle</command>
-    <result xml:space="preserve">You now have a Stone axe.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa20d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa20d0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2140" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2140">
-    <command xml:space="preserve">cut planks</command>
-    <result xml:space="preserve">You chop and break the wooden planks. You can now open the door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa21b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa21b0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the wooden door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2220" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2220">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Old shack
-A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd.
-
-You can see a Scientist here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2290" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2290">
-    <command xml:space="preserve">give scientist axe</command>
-    <result xml:space="preserve">The Scientist doesn&apos;t seem interested.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2300" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2300">
-    <command xml:space="preserve">give scientist fish</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2370" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2370">
-    <command xml:space="preserve">give scientist fillet</command>
-    <result xml:space="preserve">The scientist hungrily snatches the fillet out of your hands.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa23e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa23e0">
-    <command xml:space="preserve">talk to scientist</command>
-    <result xml:space="preserve">Thank you so much, I was literally dying of starvation. Anyways, if you&apos;re trying to get off this island, there&apos;s a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that&apos;s all I remember…Be careful.er慷獹‬晩礠畯&apos;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2450" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2450">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Dirt path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa24c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa24c0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2530" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2530">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Wetlands
-A series of small ponds surrounded by tall grass and mangrove roots. A lava tube is to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa25a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa25a0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Lava tube
-An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2610" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2610">
-    <command xml:space="preserve">wear goggles</command>
-    <result xml:space="preserve">You put on the special goggles.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2680" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2680">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">The special goggles filter the markings on the wall, leaving only the faint scratches visible. You can clearly make out the number &quot;133716&quot; engraved in the wall. You pick up a leaf and scratch the number in with your fingernail. You put the leaf in your pocket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa26f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa26f0">
-    <command xml:space="preserve">x paintings</command>
-    <result xml:space="preserve">Old cave paintings with the number &quot;133716&quot; etched in behind.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2760" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2760">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a code
-  a special goggles (being worn)
-  a Stone axe
-  a fishing rod
-  a mysterious stone
-  a rusty key
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa27d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa27d0">
-    <command xml:space="preserve">x code</command>
-    <result xml:space="preserve">A leaf with the number &quot;133716&quot; scratched in.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2840" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2840">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Volcano Slope
-The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa28b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa28b0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">dark tunnel
-A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights. Furthur down the tunnel, there are two large metal doors. One is to the north and one is to the east. There is an electronic keypad mounted on the wall between the two doors.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2920" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2920">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The metal door is locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2990" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2990">
-    <command xml:space="preserve">enter code into keypad</command>
-    <result xml:space="preserve">You enter the number &quot;133716&quot; into the electronic keypad. You hear a small beeping sound coming from both the north and east metal doors.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2a00" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2a00">
-    <command xml:space="preserve">put code into keypad</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2a70" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2a70">
-    <command xml:space="preserve">use keypad</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2ae0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2ae0">
-    <command xml:space="preserve">use keypad</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2b50" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2b50">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a code
-  a special goggles (being worn)
-  a Stone axe
-  a fishing rod
-  a mysterious stone
-  a rusty key
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2bc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2bc0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">underground cove
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2c30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2c30">
-    <command xml:space="preserve">use keypad</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2ca0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2ca0">
-    <command xml:space="preserve">use electronic keypad</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2d10" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2d10">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-dark tunnel
-A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights. Furthur down the tunnel, there are two large metal doors. One is to the north and one is to the east. There is an electronic keypad mounted on the wall between the two doors.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2d80" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2d80">
-    <command xml:space="preserve">use keypad</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2df0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2df0">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">dark tunnel
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2e60" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2e60">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">underground cove
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2ed0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2ed0">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">underground cove
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2f40" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2f40">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">underground cove
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2fb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2fb0">
-    <command xml:space="preserve">und</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa3020" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa3020">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">underground cove
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa3090" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa3090">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">dark tunnel
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa3100" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa3100">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">&quot;Undo&quot; failed.  [Not all interpreters provide it.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa3170" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa3170">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa31e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa31e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa3250" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa3250">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Volcano Slope
-The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa32c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa32c0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">dark tunnel
-A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights. Furthur down the tunnel, there are two large metal doors. One is to the north and one is to the east. There is an electronic keypad mounted on the wall between the two doors.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa3330" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa3330">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">underground cove
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1324">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa33a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa33a0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-dark tunnel
-A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights. Furthur down the tunnel, there are two large metal doors. One is to the north and one is to the east. There is an electronic keypad mounted on the wall between the two doors.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1323">YES</temporary>
-  </item>
   <item nodeId="node-0xe8c40c0">
     <command xml:space="preserve">x sand</command>
     <result xml:space="preserve">Very fine white sand that is warm to the touch.
@@ -3768,7 +3357,7 @@ A dark tunnel dug under the slope of the volcano that looks to be man-made. The 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1975">YES</temporary>
+    <temporary score="2570">YES</temporary>
     <children>
       <child nodeId="node-0x1830230" />
       <child nodeId="node-0xb5d35b0" />
@@ -3820,57 +3409,496 @@ A wide open grassy clearing that is surrounded by a ring of palm trees. You can 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1503">YES</temporary>
+    <temporary score="2570">YES</temporary>
     <children>
       <child nodeId="node-0x1830280" />
       <child nodeId="node-0xf373130" />
-      <child nodeId="node-0xe801900" />
+      <child nodeId="node-0x6e27fb0" />
     </children>
   </item>
-  <item nodeId="node-0xe801900">
+  <item nodeId="node-0x6e27fb0">
     <command xml:space="preserve">take worm</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1110">YES</temporary>
+    <temporary score="2570">YES</temporary>
     <children>
-      <child nodeId="node-0x6f67770" />
+      <child nodeId="node-0xf358a60" />
     </children>
   </item>
-  <item nodeId="node-0x6f67770">
-    <command xml:space="preserve">shake tree</command>
-    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+  <item nodeId="node-0xf358a60">
+    <command xml:space="preserve">shake tre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1110">YES</temporary>
+    <temporary score="2570">YES</temporary>
     <children>
-      <child nodeId="node-0x7041240" />
+      <child nodeId="node-0x6e33a10" />
     </children>
   </item>
-  <item nodeId="node-0x7041240">
+  <item nodeId="node-0x6e33a10">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it gently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf362920" />
+    </children>
+  </item>
+  <item nodeId="node-0xf362920">
     <command xml:space="preserve">take stick</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="1110">YES</temporary>
+    <temporary score="2570">YES</temporary>
     <children>
-      <child nodeId="node-0xf3bbdd0" />
+      <child nodeId="node-0x19e2e120" />
     </children>
   </item>
-  <item nodeId="node-0xf3bbdd0">
-    <command xml:space="preserve">put stick in line</command>
+  <item nodeId="node-0x19e2e120">
+    <command xml:space="preserve">combine stick with line</command>
     <result xml:space="preserve">You tie the fishing line into a notch at the end of the stick. You have created an unfinished rod.
 
 &gt;</result>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3417a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3417a0">
+    <command xml:space="preserve">combine rod with worm</command>
+    <result xml:space="preserve">You tie the worm to the end of the fishing line on the unfinished rod. You have created a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f07f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f07f70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xed57710" />
+    </children>
+  </item>
+  <item nodeId="node-0xed57710">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">(in the small ponds)
+You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and take the raw mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3b67c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3b67c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x181ee60" />
+    </children>
+  </item>
+  <item nodeId="node-0x181ee60">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">(in the small ponds)
+You already have a fish!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aa8aa90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aa8aa90">
+    <command xml:space="preserve">drop fish</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf34fc90" />
+    </children>
+  </item>
+  <item nodeId="node-0xf34fc90">
+    <command xml:space="preserve">take fish</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf36ee80" />
+    </children>
+  </item>
+  <item nodeId="node-0xf36ee80">
+    <command xml:space="preserve">drop fish</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x1832270" />
+    </children>
+  </item>
+  <item nodeId="node-0x1832270">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">(in the small ponds)
+You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and take the raw mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f02ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f02ce0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf39d860" />
+    </children>
+  </item>
+  <item nodeId="node-0xf39d860">
+    <command xml:space="preserve">take fish</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf343610" />
+    </children>
+  </item>
+  <item nodeId="node-0xf343610">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x185a430" />
+    </children>
+  </item>
+  <item nodeId="node-0x185a430">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1109">YES</temporary>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8a66e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8a66e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Lava Tube
+An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf36fa80" />
+    </children>
+  </item>
+  <item nodeId="node-0xf36fa80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf376790" />
+    </children>
+  </item>
+  <item nodeId="node-0xf376790">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8a3010" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8a3010">
+    <command xml:space="preserve">cook fish</command>
+    <result xml:space="preserve">(in the small lava pit)
+You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy. You now have a cooked mullet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf34e780" />
+    </children>
+  </item>
+  <item nodeId="node-0xf34e780">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a cooked mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xeeb3a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xeeb3a50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lava Tube
+An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf395190" />
+    </children>
+  </item>
+  <item nodeId="node-0xf395190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xe81cb30" />
+    </children>
+  </item>
+  <item nodeId="node-0xe81cb30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3523a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3523a0">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">(in the small ponds)
+You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and take the raw mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aa1f370" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aa1f370">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a cooked mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3661c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3661c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Lava Tube
+An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3032d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3032d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8dbe80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8dbe80">
+    <command xml:space="preserve">cook fish</command>
+    <result xml:space="preserve">(in the small lava pit)
+You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy. You now have a cooked mullet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e2c3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e2c3e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lava Tube
+An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf338b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf338b10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3d1620" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3d1620">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">(in the small ponds)
+You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and take the raw mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3304c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3304c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a cooked mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0xe82a190" />
+    </children>
+  </item>
+  <item nodeId="node-0xe82a190">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">(in the small ponds)
+You already have a fish!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2570">YES</temporary>
+    <children>
+      <child nodeId="node-0x1aa76550" />
+    </children>
+  </item>
+  <item nodeId="node-0x1aa76550">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a raw mullet
+  a cooked mullet
+  a fishing rod
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2569">YES</temporary>
   </item>
   <item nodeId="node-0xf373130">
     <command xml:space="preserve">shake tree</command>
@@ -3882,115 +3910,7 @@ A wide open grassy clearing that is surrounded by a ring of palm trees. You can 
     <temporary score="1503">YES</temporary>
     <children>
       <child nodeId="node-0xe82ac20" />
-      <child nodeId="node-0xb436830" />
     </children>
-  </item>
-  <item nodeId="node-0xb436830">
-    <command xml:space="preserve">tAKE STICK</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f0f430" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f0f430">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5b0880" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5b0880">
-    <command xml:space="preserve">take worm</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0xe833850" />
-    </children>
-  </item>
-  <item nodeId="node-0xe833850">
-    <command xml:space="preserve">combine stick with line</command>
-    <result xml:space="preserve">You tie the fishing line into a notch at the end of the stick. You have created an unfinished rod.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3a5bf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3a5bf0">
-    <command xml:space="preserve">combine rod with worm</command>
-    <result xml:space="preserve">You tie the worm to the end of the fishing line on the unfinished rod. You have created a fishing rod.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0x1857e80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1857e80">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Beach
-A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach. The clearing is to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5a42c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5a42c0">
-    <command xml:space="preserve">fish</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f21a30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f21a30">
-    <command xml:space="preserve">fish in ocean</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1231">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5b5a20" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5b5a20">
-    <command xml:space="preserve">catch fish in ocean</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1230">YES</temporary>
   </item>
   <item nodeId="node-0xe82ac20">
     <command xml:space="preserve">take stick</command>
@@ -4001,7 +3921,6 @@ A beautiful white sand beach that stretches around the entire island. Waves from
     <changed>NO</changed>
     <temporary score="1503">YES</temporary>
     <children>
-      <child nodeId="node-0xf361890" />
       <child nodeId="node-0x18755d0" />
     </children>
   </item>
@@ -4013,977 +3932,6 @@ A beautiful white sand beach that stretches around the entire island. Waves from
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="1502">YES</temporary>
-  </item>
-  <item nodeId="node-0xf361890">
-    <command xml:space="preserve">take worm</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf391fa0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf391fa0">
-    <command xml:space="preserve">combine stick with line</command>
-    <result xml:space="preserve">You tie the fishing line into a notch at the end of the stick. You have created an unfinished rod.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x706b0f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x706b0f0">
-    <command xml:space="preserve">combine rod with worm</command>
-    <result xml:space="preserve">You tie the worm to the end of the fishing line on the unfinished rod. You have created a fishing rod.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f56450" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f56450">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Wetlands
-A series of small ponds surrounded by tall grass and mangrove roots. The lava tube is to the north and the clearing is to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3d2a90" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3d2a90">
-    <command xml:space="preserve">fish</command>
-    <result xml:space="preserve">(in the small ponds)
-You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a raw mullet on the end.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb51a750" />
-    </children>
-  </item>
-  <item nodeId="node-0xb51a750">
-    <command xml:space="preserve">take fish</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6e1f4b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6e1f4b0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf327550" />
-    </children>
-  </item>
-  <item nodeId="node-0xf327550">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Lava Tube
-An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe86d870" />
-    </children>
-  </item>
-  <item nodeId="node-0xe86d870">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f1fe50" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f1fe50">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Volcano Slope
-The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe823c80" />
-    </children>
-  </item>
-  <item nodeId="node-0xe823c80">
-    <command xml:space="preserve">cook fish</command>
-    <result xml:space="preserve">(in the small lava pit)
-You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy. You now have a cooked mullet.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf303be0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf303be0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8292b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8292b0">
-    <command xml:space="preserve">take rock</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5150e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5150e0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt Path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-You can see a wooden handle here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5b5350" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5b5350">
-    <command xml:space="preserve">take handle</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8aae30" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8aae30">
-    <command xml:space="preserve">combine handle with stone</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f18740" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f18740">
-    <command xml:space="preserve">combine handle with rock</command>
-    <result xml:space="preserve">You shove the sharp rock into the wooden handle. You have created a stone axe.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3174c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3174c0">
-    <command xml:space="preserve">break door</command>
-    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3db660" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3db660">
-    <command xml:space="preserve">break door with axe</command>
-    <result xml:space="preserve">You chop and break the wooden planks. You can now open the door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x7068ff0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7068ff0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the Wooden Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fb4290" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fb4290">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Old Shack
-A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd. The dirt path is to the south.
-
-You can see a Scientist here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8066d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8066d0">
-    <command xml:space="preserve">give scientist mullet</command>
-    <result xml:space="preserve">The scientist hungrily snatches the cooked mullet out of your hands.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8ad1c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8ad1c0">
-    <command xml:space="preserve">talk to scientist</command>
-    <result xml:space="preserve">Thank you so much, I was literally dying of starvation. Anyways, if you&apos;re trying to get off this island, there&apos;s a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that&apos;s all I remember…Be careful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fc13b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fc13b0">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Old Shack
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb4e6730" />
-    </children>
-  </item>
-  <item nodeId="node-0xb4e6730">
-    <command xml:space="preserve">talk to man</command>
-    <result xml:space="preserve">Thank you so much, I was literally dying of starvation. Anyways, if you&apos;re trying to get off this island, there&apos;s a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that&apos;s all I remember…Be careful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8e66e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8e66e0">
-    <command xml:space="preserve">talk to man</command>
-    <result xml:space="preserve">Thank you so much, I was literally dying of starvation. Anyways, if you&apos;re trying to get off this island, there&apos;s a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that&apos;s all I remember…Be careful.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x181c880" />
-    </children>
-  </item>
-  <item nodeId="node-0x181c880">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a special goggles
-  a Stone axe
-  a fishing rod
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf362b80" />
-    </children>
-  </item>
-  <item nodeId="node-0xf362b80">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Dirt Path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee3e620" />
-    </children>
-  </item>
-  <item nodeId="node-0xee3e620">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The gate is locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe823c00" />
-    </children>
-  </item>
-  <item nodeId="node-0xe823c00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb4f7740" />
-    </children>
-  </item>
-  <item nodeId="node-0xb4f7740">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Wetlands
-A series of small ponds surrounded by tall grass and mangrove roots. The lava tube is to the north and the clearing is to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xeec3990" />
-    </children>
-  </item>
-  <item nodeId="node-0xeec3990">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Lava Tube
-An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3d3060" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3d3060">
-    <command xml:space="preserve">wear goggles</command>
-    <result xml:space="preserve">You put on the special goggles.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb505a10" />
-    </children>
-  </item>
-  <item nodeId="node-0xb505a10">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">Your clothes are tattered and your hair is a mess but at least you&apos;re wearing some pretty cool goggles.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5d2bd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5d2bd0">
-    <command xml:space="preserve">take off goggles</command>
-    <result xml:space="preserve">You take off the special goggles.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3277d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3277d0">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">Your clothes are tattered and your hair is a mess. Not a pretty sight.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f17150" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f17150">
-    <command xml:space="preserve">wear goggles</command>
-    <result xml:space="preserve">You put on the special goggles.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xeed67d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeed67d0">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">The special goggles filter the markings on the wall, leaving only the faint scratches visible. You can clearly make out the number &quot;133716&quot; engraved in the wall. You pick up a leaf and scratch the number in with your fingernail. You put the leaf in your pocket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8bc640" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8bc640">
-    <command xml:space="preserve">x passcode</command>
-    <result xml:space="preserve">A leaf with the number &quot;133716&quot; scratched in.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8b7670" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8b7670">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8387c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8387c0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Wetlands
-A series of small ponds surrounded by tall grass and mangrove roots. The lava tube is to the north and the clearing is to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8a73a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8a73a0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fc6b40" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fc6b40">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee2d370" />
-    </children>
-  </item>
-  <item nodeId="node-0xee2d370">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt Path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xeed7de0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeed7de0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f0c570" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f0c570">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Beach
-A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach. The clearing is to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb4ecba0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb4ecba0">
-    <command xml:space="preserve">x hole</command>
-    <result xml:space="preserve">Quarter-sized holes that are scattered all around the shore line.
-
-Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it&apos;s a rusty key.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf30e280" />
-    </children>
-  </item>
-  <item nodeId="node-0xf30e280">
-    <command xml:space="preserve">take key</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x706fbb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x706fbb0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8ccf10" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8ccf10">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Dirt Path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6e149d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6e149d0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The gate is locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee4cd40" />
-    </children>
-  </item>
-  <item nodeId="node-0xee4cd40">
-    <command xml:space="preserve">unlock gate</command>
-    <result xml:space="preserve">What do you want to unlock the Gate with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee512b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xee512b0">
-    <command xml:space="preserve">key</command>
-    <result xml:space="preserve">You unlock the Gate.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee2f090" />
-    </children>
-  </item>
-  <item nodeId="node-0xee2f090">
-    <command xml:space="preserve">open gate</command>
-    <result xml:space="preserve">You open the Gate.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5dbbc0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5dbbc0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Cave Entrance
-A dark and gaping cave entrance. The entire mouth of the cave has been blocked by a locked gate. The gate is littered with warning and danger signs. How eerie. The dirt path is to the east.
-
-You can see a mysterious stone here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb4c6660" />
-    </children>
-  </item>
-  <item nodeId="node-0xb4c6660">
-    <command xml:space="preserve">take stone</command>
-    <result xml:space="preserve">(the mysterious stone)
-Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe831000" />
-    </children>
-  </item>
-  <item nodeId="node-0xe831000">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Dirt Path
-An old dirt path lined with greenery. There is a hut to the north and a cave entrance to the west.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee2c150" />
-    </children>
-  </item>
-  <item nodeId="node-0xee2c150">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Clearing
-A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee76d70" />
-    </children>
-  </item>
-  <item nodeId="node-0xee76d70">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Volcano Slope
-The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8170d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8170d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The hidden door is locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5afd00" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5afd00">
-    <command xml:space="preserve">x underbrush</command>
-    <result xml:space="preserve">Volcanic ferns and skinny trees that are rooted on the slope of the volcano. You notice a door built into the side of the volcano behind one of the ferns.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xeefaaa0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeefaaa0">
-    <command xml:space="preserve">x door</command>
-    <result xml:space="preserve">A hidden stone door placed under the underbrush on the volcano slope. In the middle of the door is an indent that is shaped like the front of a skull.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x70b85d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x70b85d0">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">What do you want to unlock the Hidden Door with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6e14070" />
-    </children>
-  </item>
-  <item nodeId="node-0x6e14070">
-    <command xml:space="preserve">stone</command>
-    <result xml:space="preserve">Which do you mean, the mysterious stone or the Stone axe?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f57a30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f57a30">
-    <command xml:space="preserve">mysterious stone</command>
-    <result xml:space="preserve">You unlock the Hidden Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5acdd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5acdd0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the Hidden Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb50aac0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb50aac0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Dark Tunnel
-A dark tunnel dug under the slope of the volcano that looks to be man-made. The air is warm and the walls are lined with broken tunnel lights. Further down the tunnel, there are two large metal doors. One is to the north and one is to the east. There is an electronic keypad mounted on the wall between the two doors.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x705a500" />
-    </children>
-  </item>
-  <item nodeId="node-0x705a500">
-    <command xml:space="preserve">enter code</command>
-    <result xml:space="preserve">You enter the number &quot;133716&quot; into the electronic keypad. After a while, you hear a small beeping sound coming from both the north and east metal doors. As soon as the beeping stops, both doors slide open with a puff of white mist.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5e84d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5e84d0">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Dark Tunnel
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe89bb20" />
-    </children>
-  </item>
-  <item nodeId="node-0xe89bb20">
-    <command xml:space="preserve">enter passcode</command>
-    <result xml:space="preserve">You enter the number &quot;133716&quot; into the electronic keypad. After a while, you hear a small beeping sound coming from both the north and east metal doors. As soon as the beeping stops, both doors slide open with a puff of white mist.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xe8c5900" />
-    </children>
-  </item>
-  <item nodeId="node-0xe8c5900">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Dark Tunnel
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee9b520" />
-    </children>
-  </item>
-  <item nodeId="node-0xee9b520">
-    <command xml:space="preserve">use keypad</command>
-    <result xml:space="preserve">You enter the number &quot;133716&quot; into the electronic keypad. After a while, you hear a small beeping sound coming from both the north and east metal doors. As soon as the beeping stops, both doors slide open with a puff of white mist.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f3cd90" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f3cd90">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Dark Tunnel
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fd41f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fd41f0">
-    <command xml:space="preserve">use keypad</command>
-    <result xml:space="preserve">You enter the number &quot;133716&quot; into the electronic keypad. After a while, you hear a small beeping sound coming from both the north and east metal doors. As soon as the beeping stops, both doors slide open with a puff of white mist.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xee67950" />
-    </children>
-  </item>
-  <item nodeId="node-0xee67950">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1219">YES</temporary>
-    <children>
-      <child nodeId="node-0xf352be0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf352be0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Underground Cove
-A hidden cove where the ocean flows underneath the volcano. This cove serves as a secret lab entrance for boats and other ocean vehicles. There is a small submarine floating in the water near some tall rocks. The dark tunnel is to the south and the experiment room is to the east.
-
-You can see a Broken submarine (empty) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1218">YES</temporary>
   </item>
   <item nodeId="node-0x1830280">
     <command xml:space="preserve">s</command>
@@ -7225,5 +6173,1977 @@ You can see a sharp rock here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1520">YES</temporary>
+  </item>
+  <item nodeId="node-0xee1dde0">
+    <command xml:space="preserve">x thin line</command>
+    <result xml:space="preserve">A long, tough fishing line that washed up on the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3f5e90" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3f5e90">
+    <command xml:space="preserve">take line</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19efa4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19efa4c0">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Your clothes are tattered and your hair is a mess. Not a pretty sight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf381f50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf381f50">
+    <command xml:space="preserve">x beach</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf38a280" />
+    </children>
+  </item>
+  <item nodeId="node-0xf38a280">
+    <command xml:space="preserve">x island</command>
+    <result xml:space="preserve">You&apos;re standing on it!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb508190" />
+    </children>
+  </item>
+  <item nodeId="node-0xb508190">
+    <command xml:space="preserve">xwaves</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10288670" />
+    </children>
+  </item>
+  <item nodeId="node-0x10288670">
+    <command xml:space="preserve">x waves</command>
+    <result xml:space="preserve">Crystal clear sea water gently lapping the white sand.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf35ee60" />
+    </children>
+  </item>
+  <item nodeId="node-0xf35ee60">
+    <command xml:space="preserve">x ocean</command>
+    <result xml:space="preserve">A beautiful, sparkling, sapphire ocean that stretches to the horizon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f230d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f230d0">
+    <command xml:space="preserve">x sand</command>
+    <result xml:space="preserve">Very fine white sand that is warm to the touch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5c8bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5c8bb0">
+    <command xml:space="preserve">take sand</command>
+    <result xml:space="preserve">Why are wasting your time trying to take sand? Besides, you have nothing to carry it in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e35190" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e35190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1919f890" />
+    </children>
+  </item>
+  <item nodeId="node-0x1919f890">
+    <command xml:space="preserve">x palm trees</command>
+    <result xml:space="preserve">Tall, slender palms that line the edges of the clearing. Trees are missing where paths are formed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf350210" />
+    </children>
+  </item>
+  <item nodeId="node-0xf350210">
+    <command xml:space="preserve">climb trees</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3d7260" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3d7260">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">A lonely tree that sits in the middle of the clearing. Its trunk is very tall and weak. The trunk looks as if it could collapse any moment. Its leafless branches sadly slump towards the dirt.
+
+High above you, way out of reach, you see skinny branches dangling from the weak trunk. Maybe you can somehow get one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb511e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xb511e50">
+    <command xml:space="preserve">climb trees</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19160b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x19160b50">
+    <command xml:space="preserve">climb tree</command>
+    <result xml:space="preserve">You hug the trunk and shimmy up the tree. When you reach the top, you hear the sound of cracking wood below. You scream in terror as the feeble trunk collapses and you fall to the ground.
+
+
+
+    *** You fell to your death ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x18fb7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18fb7d0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Clearing
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf394da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf394da0">
+    <command xml:space="preserve">eat tree</command>
+    <result xml:space="preserve">(first taking the lone tree)
+That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f3a8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f3a8d0">
+    <command xml:space="preserve">x boulders</command>
+    <result xml:space="preserve">A patch of large, black boulders. Most boulders are too large to move but there are other, smaller rocks scattered around.
+
+You can see a sharp rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e41bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e41bf0">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191a4120" />
+    </children>
+  </item>
+  <item nodeId="node-0x191a4120">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">A rock with one sharp, serrated side that resembles a blade edge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f3ac80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f3ac80">
+    <command xml:space="preserve">cut tree</command>
+    <result xml:space="preserve">Cutting that up would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3bc9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3bc9a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5b99a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5b99a0">
+    <command xml:space="preserve">x mud pit</command>
+    <result xml:space="preserve">A small pit filled with warm, thick mud.
+
+You can see a worm on the surface of the mud.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5c8370" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5c8370">
+    <command xml:space="preserve">take mud</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3b1620" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3b1620">
+    <command xml:space="preserve">take worm</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x70688c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70688c0">
+    <command xml:space="preserve">dig</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e15ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e15ad0">
+    <command xml:space="preserve">eat worm</command>
+    <result xml:space="preserve">You&apos;re not that messed up are you? Try putting the worm to better use.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1896d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1896d20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19149740" />
+    </children>
+  </item>
+  <item nodeId="node-0x19149740">
+    <command xml:space="preserve">x pond</command>
+    <result xml:space="preserve">A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5ea6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5ea6e0">
+    <command xml:space="preserve">x ponds</command>
+    <result xml:space="preserve">A small pond that is connected to a river flowing from the north, and the ocean to the south. This pond is home to many fish.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191ee480" />
+    </children>
+  </item>
+  <item nodeId="node-0x191ee480">
+    <command xml:space="preserve">x grass</command>
+    <result xml:space="preserve">Tall grass and reeds that come up to your waist.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191475e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x191475e0">
+    <command xml:space="preserve">take grass</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf31b7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf31b7e0">
+    <command xml:space="preserve">x mangrove</command>
+    <result xml:space="preserve">Mangrove plants that are elevated above the ground on their tall roots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10299b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10299b70">
+    <command xml:space="preserve">climb mangrove</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19104f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x19104f40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Lava Tube
+An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf37df70" />
+    </children>
+  </item>
+  <item nodeId="node-0xf37df70">
+    <command xml:space="preserve">x markings</command>
+    <result xml:space="preserve">Cave paintings and hieroglyphs that look to have been engraved into the rock wall long ago. There are also some faint scratches that look out of place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1918c970" />
+    </children>
+  </item>
+  <item nodeId="node-0x1918c970">
+    <command xml:space="preserve">x scratches</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3b2d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3b2d20">
+    <command xml:space="preserve">x faint scratches</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e170c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e170c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf39b9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf39b9f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191a1640" />
+    </children>
+  </item>
+  <item nodeId="node-0x191a1640">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19156ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19156ce0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19162910" />
+    </children>
+  </item>
+  <item nodeId="node-0x19162910">
+    <command xml:space="preserve">x ash</command>
+    <result xml:space="preserve">Fine ash particles that blanket the slope.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1021f0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1021f0a0">
+    <command xml:space="preserve">take ash</command>
+    <result xml:space="preserve">You don&apos;t need that!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10280f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10280f60">
+    <command xml:space="preserve">x underbrush</command>
+    <result xml:space="preserve">Volcanic ferns and skinny trees that are rooted on the slope of the volcano. You notice a door built into the side of the volcano behind one of the ferns.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3d7840" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3d7840">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3122f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3122f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The hidden door is locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10257000" />
+    </children>
+  </item>
+  <item nodeId="node-0x10257000">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf318d90" />
+    </children>
+  </item>
+  <item nodeId="node-0xf318d90">
+    <command xml:space="preserve">x lava pit</command>
+    <result xml:space="preserve">A pit filled with molten hot lava. The heat emitted from the pit feels like the heat of a stove.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10280fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10280fb0">
+    <command xml:space="preserve">x slope</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3f5440" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3f5440">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191ef500" />
+    </children>
+  </item>
+  <item nodeId="node-0x191ef500">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+You can see a wooden handle here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf337260" />
+    </children>
+  </item>
+  <item nodeId="node-0xf337260">
+    <command xml:space="preserve">take wooden handle</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1919c580" />
+    </children>
+  </item>
+  <item nodeId="node-0x1919c580">
+    <command xml:space="preserve">combine handle with stick</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf37bb70" />
+    </children>
+  </item>
+  <item nodeId="node-0xf37bb70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a wooden handle
+  a worm
+  a sharp rock
+  a thin line
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19118df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19118df0">
+    <command xml:space="preserve">combine handle with worm</command>
+    <result xml:space="preserve">You can&apos;t combine the wooden handle and the worm into anything useful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191fb4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x191fb4b0">
+    <command xml:space="preserve">eat worm</command>
+    <result xml:space="preserve">You&apos;re not that messed up are you? Try putting the worm to better use.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191a4a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x191a4a20">
+    <command xml:space="preserve">combine wooden handle with rock</command>
+    <result xml:space="preserve">You shove the sharp rock into the wooden handle. You have created a stone axe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3714d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3714d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19131740" />
+    </children>
+  </item>
+  <item nodeId="node-0x19131740">
+    <command xml:space="preserve">x greenery</command>
+    <result xml:space="preserve">Various bushes and trees that line the dirt path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10267030" />
+    </children>
+  </item>
+  <item nodeId="node-0x10267030">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The gate at the cave entrance is locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191edd00" />
+    </children>
+  </item>
+  <item nodeId="node-0x191edd00">
+    <command xml:space="preserve">unlock gate</command>
+    <result xml:space="preserve">What do you want to unlock the Gate with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191f8460" />
+    </children>
+  </item>
+  <item nodeId="node-0x191f8460">
+    <command xml:space="preserve">me</command>
+    <result xml:space="preserve">(first taking yourself)
+You are always self-possessed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19111f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x19111f30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e717e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e717e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19116970" />
+    </children>
+  </item>
+  <item nodeId="node-0x19116970">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1910bfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1910bfe0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x102580e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102580e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf326410" />
+    </children>
+  </item>
+  <item nodeId="node-0xf326410">
+    <command xml:space="preserve">x hut</command>
+    <result xml:space="preserve">A round and old wooden shack with a pointed straw roof. The walls of the shack are lined with giant scratches that look like claw marks.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1914ee80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1914ee80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The wooden door to the shack won&apos;t budge. It is locked with wooden planks that are nailed to the front of the door. Maybe you could somehow break them.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19192aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19192aa0">
+    <command xml:space="preserve">break door with axe</command>
+    <result xml:space="preserve">You chop and break the wooden planks. You can now open the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191f85b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x191f85b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The door is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10296e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10296e60">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Wooden Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191d6470" />
+    </children>
+  </item>
+  <item nodeId="node-0x191d6470">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Old Shack
+A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd. The dirt path is to the south.
+
+You can see a Scientist here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191b9990" />
+    </children>
+  </item>
+  <item nodeId="node-0x191b9990">
+    <command xml:space="preserve">attack scientist</command>
+    <result xml:space="preserve">The last thing you would want to do when you&apos;re stranded on an island is to attack a potential ally.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf398a30" />
+    </children>
+  </item>
+  <item nodeId="node-0xf398a30">
+    <command xml:space="preserve">talk to scientist</command>
+    <result xml:space="preserve">Food…please…
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ed6b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ed6b70">
+    <command xml:space="preserve">x skulls</command>
+    <result xml:space="preserve">Unusual skulls that don&apos;t resemble the skull of anything you are familiar with.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe895370" />
+    </children>
+  </item>
+  <item nodeId="node-0xe895370">
+    <command xml:space="preserve">take skull</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe86a140" />
+    </children>
+  </item>
+  <item nodeId="node-0xe86a140">
+    <command xml:space="preserve">x flask</command>
+    <result xml:space="preserve">Various types of flasks that you recognize from chemistry class.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf31ab50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf31ab50">
+    <command xml:space="preserve">take flask</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8a01b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8a01b0">
+    <command xml:space="preserve">x other unusual objects</command>
+    <result xml:space="preserve">Unusual science objects.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19193e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x19193e80">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">(the Scientist)
+Let&apos;s not kidnap a scientist.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191f4550" />
+    </children>
+  </item>
+  <item nodeId="node-0x191f4550">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Your clothes are tattered and your hair is a mess. Not a pretty sight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe850da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe850da0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1813b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1813b40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10299ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10299ae0">
+    <command xml:space="preserve">cut branch with axe</command>
+    <result xml:space="preserve">They&apos;re too far out of reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe823ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe823ba0">
+    <command xml:space="preserve">cut tree</command>
+    <result xml:space="preserve">Cutting that up would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe84bef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe84bef0">
+    <command xml:space="preserve">cut tree with axe</command>
+    <result xml:space="preserve">Don&apos;t be a tree killer! Why not just give the tree a little shake?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191bdd10" />
+    </children>
+  </item>
+  <item nodeId="node-0x191bdd10">
+    <command xml:space="preserve">shake tree</command>
+    <result xml:space="preserve">You grab hold of the feeble trunk and shake it violently. A skinny branch detaches iteself from the trunk and falls to the ground. You take a closer look at the branch and see that it is actually a strong, flexible stick.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e0fb60" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e0fb60">
+    <command xml:space="preserve">combine stick with line</command>
+    <result xml:space="preserve">(first taking the flexible stick)
+You tie the fishing line into a notch at the end of the stick. You have created an unfinished rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe866ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe866ab0">
+    <command xml:space="preserve">combine rod with worm</command>
+    <result xml:space="preserve">You tie the worm to the end of the fishing line on the unfinished rod. You have created a fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191ee910" />
+    </children>
+  </item>
+  <item nodeId="node-0x191ee910">
+    <command xml:space="preserve">x rod</command>
+    <result xml:space="preserve">A makeshift and fully-functional fishing rod.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x102f9980" />
+    </children>
+  </item>
+  <item nodeId="node-0x102f9980">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach. The clearing is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191df510" />
+    </children>
+  </item>
+  <item nodeId="node-0x191df510">
+    <command xml:space="preserve">x crab holes</command>
+    <result xml:space="preserve">Quarter-sized holes that are scattered all around the shore line.
+
+Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it&apos;s a rusty key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe895690" />
+    </children>
+  </item>
+  <item nodeId="node-0xe895690">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x102ed9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102ed9d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191c7110" />
+    </children>
+  </item>
+  <item nodeId="node-0x191c7110">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8741e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8741e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19169870" />
+    </children>
+  </item>
+  <item nodeId="node-0x19169870">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe86a8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe86a8e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10217950" />
+    </children>
+  </item>
+  <item nodeId="node-0x10217950">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">(in the small ponds)
+You throw your line in the pond and wait for a bite. It&apos;s not long until you feel something tugging on your line. You pull in your line and see a raw mullet on the end.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191148c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x191148c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8aeb40" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8aeb40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf347060" />
+    </children>
+  </item>
+  <item nodeId="node-0xf347060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19156700" />
+    </children>
+  </item>
+  <item nodeId="node-0x19156700">
+    <command xml:space="preserve">cook fish</command>
+    <result xml:space="preserve">(in the small lava pit)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8433c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8433c0">
+    <command xml:space="preserve">put fish over lava</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1914ed50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1914ed50">
+    <command xml:space="preserve">cook mullet</command>
+    <result xml:space="preserve">(in the small lava pit)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19126020" />
+    </children>
+  </item>
+  <item nodeId="node-0x19126020">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a rusty key
+  a fishing rod
+  a Stone axe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19187a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x19187a60">
+    <command xml:space="preserve">takemullet</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe80d0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe80d0d0">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1915c720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1915c720">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb4dbdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb4dbdc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+You can see a raw mullet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3b7230" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3b7230">
+    <command xml:space="preserve">take mullet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1026b230" />
+    </children>
+  </item>
+  <item nodeId="node-0x1026b230">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19172590" />
+    </children>
+  </item>
+  <item nodeId="node-0x19172590">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8b6a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8b6a70">
+    <command xml:space="preserve">cook fish</command>
+    <result xml:space="preserve">(in the small lava pit)
+You carefully hold the raw mullet over the fire pit. After a while, the mullet cooks and becomes brown and crispy. You now have a cooked mullet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xee583c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xee583c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a cooked mullet
+  a rusty key
+  a fishing rod
+  a Stone axe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1910a310" />
+    </children>
+  </item>
+  <item nodeId="node-0x1910a310">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xee15df0" />
+    </children>
+  </item>
+  <item nodeId="node-0xee15df0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x102d6290" />
+    </children>
+  </item>
+  <item nodeId="node-0x102d6290">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Old Shack
+A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd. The dirt path is to the south.
+
+You can see a Scientist here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf334270" />
+    </children>
+  </item>
+  <item nodeId="node-0xf334270">
+    <command xml:space="preserve">give fish to scientist</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8d7670" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8d7670">
+    <command xml:space="preserve">give cooked fish to scientist</command>
+    <result xml:space="preserve">The scientist hungrily snatches the cooked mullet out of your hands.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8cc600" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8cc600">
+    <command xml:space="preserve">talk to scientist</command>
+    <result xml:space="preserve">Thank you so much, I was literally dying of starvation. Anyways, if you&apos;re trying to get off this island, there&apos;s a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that&apos;s all I remember…Be careful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x102a0200" />
+    </children>
+  </item>
+  <item nodeId="node-0x102a0200">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a special goggles
+  a rusty key
+  a fishing rod
+  a Stone axe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191dfe00" />
+    </children>
+  </item>
+  <item nodeId="node-0x191dfe00">
+    <command xml:space="preserve">wear goggles</command>
+    <result xml:space="preserve">You put on the special goggles.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x191237c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x191237c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x18e6290" />
+    </children>
+  </item>
+  <item nodeId="node-0x18e6290">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x1913b720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1913b720">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xedefad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xedefad0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Lava Tube
+An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e3c8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e3c8b0">
+    <command xml:space="preserve">x markings</command>
+    <result xml:space="preserve">The special goggles filter the markings on the wall, leaving only the faint scratches visible. You can clearly make out the number &quot;133716&quot; engraved in the wall. You pick up a leaf and scratch the number in with your fingernail. You put the leaf in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe803e90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe803e90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xee61520" />
+    </children>
+  </item>
+  <item nodeId="node-0xee61520">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xed6dbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xed6dbc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Wetlands
+A series of small ponds surrounded by tall grass and mangrove plants. The lava tube is to the north and the clearing is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf347460" />
+    </children>
+  </item>
+  <item nodeId="node-0xf347460">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xeda5490" />
+    </children>
+  </item>
+  <item nodeId="node-0xeda5490">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Volcano Slope
+The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8adb50" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8adb50">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x102740c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x102740c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Clearing
+A wide open grassy clearing that is surrounded by a ring of palm trees. You can see a feeble lone tree in the center of the clearing and a cluster of boulders near the edge of the clearing. You can also see a mud pit near the boulders. Four paths from all directions intersect here. The volcano slope is to the north, the dirt path is to the west, the wetlands are to the east, and the beach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x102ac530" />
+    </children>
+  </item>
+  <item nodeId="node-0x102ac530">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xee8fb30" />
+    </children>
+  </item>
+  <item nodeId="node-0xee8fb30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The gate at the cave entrance is locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e08460" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e08460">
+    <command xml:space="preserve">unlock with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xed8b110" />
+    </children>
+  </item>
+  <item nodeId="node-0xed8b110">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">That&apos;s unlocked at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5adf10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5adf10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Old Shack
+A dark and musty shack. The walls are lined with shelves that hold misshapen skulls, flasks, and other unusual objects. How odd. The dirt path is to the south.
+
+You can see a Scientist here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3f3530" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3f3530">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dirt Path
+An old dirt path lined with greenery. There is a hut to the north and a gate to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8226e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8226e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The gate at the cave entrance is locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe8aa110" />
+    </children>
+  </item>
+  <item nodeId="node-0xe8aa110">
+    <command xml:space="preserve">unlock with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10279050" />
+    </children>
+  </item>
+  <item nodeId="node-0x10279050">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a code
+  a special goggles (being worn)
+  a rusty key
+  a fishing rod
+  a Stone axe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xe84d900" />
+    </children>
+  </item>
+  <item nodeId="node-0xe84d900">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock the Gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0x10211700" />
+    </children>
+  </item>
+  <item nodeId="node-0x10211700">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The gate at the cave entrance closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xee60be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xee60be0">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">You open the Gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf36eff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf36eff0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Cave
+A dark and spacious cave that seems to extend much farther undergound. The only sound that can be heard here is the water droplets falling from the ceiling. The dirt path is to the east.
+
+You can see a mysterious stone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf3d8000" />
+    </children>
+  </item>
+  <item nodeId="node-0xf3d8000">
+    <command xml:space="preserve">take stone</command>
+    <result xml:space="preserve">(the mysterious stone)
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2468">YES</temporary>
+    <children>
+      <child nodeId="node-0xf376a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf376a10">
+    <command xml:space="preserve">save</command>
+    <result xml:space="preserve">
+Please supply a filename for save
+Ok.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2467">YES</temporary>
   </item>
 </Skein>
