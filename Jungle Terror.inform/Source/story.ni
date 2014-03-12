@@ -2,6 +2,12 @@
 
 Use no scoring.
 
+When play begins:	change the right hand status line to "[score] / [time of day]".
+	
+Every turn:	if the current action is taking inventory or the current action is looking:		change the time of day to 1 minute before the time of day.
+
+[This time code is taken from inform handbook]
+
 When play begins: say "You open your eyes. Your eyesight is blurry and it takes a while for you to realize that you are staring straight up at the cloudless blue sky. The faint squawk of birds slowly gets louder as you come back to your senses.  Still in a daze, you slowly sit up and look around. You find yourself sitting on the soft white sand of an empty beach. How in the world did you end up here? Your clothes is tattered and your entire body aches with pain. Carefully, you stand up and walk around, letting the warm sand slip through your bare toes. After examining your surroundings a bit more, you realize that you're on a small Island."
 
 Instead of examining player:
@@ -14,6 +20,8 @@ Cheating is an action applying to one visible thing
 
 understand "take all" as cheating.
 
+[cheating is just the name of the action the player cannot do. It doesn't actually show up in the game. It just prevents the person from taking all.]
+
 The Beach is a room. "A beautiful white sand beach that stretches around the entire island. Waves from the vast, sapphire ocean gently lap the shore. The sand here is littered with many crab holes. Palm trees line the dirt farther north up the beach. The clearing is to the north."
 
 The thin line is in the Beach. The description of the thin line is "A long, tough fishing line that washed up on the beach."
@@ -24,6 +32,9 @@ The sand is scenery in the Beach. "Very fine white sand that is warm to the touc
 
 understand "white sand" as sand.
 
+instead of touching the sand:
+	say "very fine and warm."
+
 The shore is scenery in the Beach. "The area where the sparkling ocean meets the white sand on the beach."
 
 Instead of taking the sand:
@@ -33,6 +44,10 @@ The waves is scenery in the Beach. "Crystal clear sea water gently lapping the w
 
 understand "wave" as waves.
 
+The horizon is scenery in the Beach. "The area in the distance where the sky meets the ocean."
+
+The sky is scenery in the Beach. "A blue and cloudless sky."
+
 The crab holes is scenery in the Beach. It is a container. "Quarter-sized holes that are scattered all around the shore line."
 
 understand "holes" as crab holes.
@@ -40,11 +55,6 @@ understand "holes" as crab holes.
 understand "hole" as crab holes.
 
 The rusty key is an object. The description is "An old key that has been rusted by the crisp ocean air. The teeth are formed in an hourglass shape."
-
-After examining crab holes:
-	If the player is not holding the rusty key:
-		say "Something shiny catches your eye in one of the holes near your feet. You take a closer look and see that it's a rusty key.";
-		move the rusty key to beach.
 
 The island is scenery in the Beach. "You're standing on it!"
 
@@ -112,6 +122,8 @@ Before listing nondescript items when the player is in the Clearing,
 	if the skinny branches is marked for listing,
 		change the skinny branches to not marked for listing.
 
+[Code from Elasia]
+
 Instead of taking skinny branches:
 say "They're too far out of reach."
 
@@ -147,6 +159,8 @@ understand "Chop [something] with [something]" as chopping
 
 Instead of chopping the lone tree:
 	say "Don't be a tree killer! Why not just give the tree a little shake?"
+
+[Because I have an axe in the game that isn't intended to chop down this tree, I had to add this hint that the tree must be shook instead of cut down. Because most people will think that the axe is used to cut down the tree, I made this hint the response to attempts to cut down the tree.]
 
 shaking is an action applying to one visible thing.
 
@@ -191,10 +205,15 @@ After examining the boulders:
 	
 The sharp rock is an object. The sharp rock is in the Clearing. The description of the sharp rock is "A rock with one sharp, serrated side that resembles a blade edge."
 
+instead of touching the sharp rock:
+	say "ouch!"
+
 Before listing nondescript items when the player is in the Clearing, 
 	if the sharp rock is marked for listing,
 		change the sharp rock to not marked for listing. 
-				
+
+[Code from Elasia]		
+	
 The mud pit is scenery in the Clearing. "A small pit filled with warm, thick mud." 
 
 understand "pit of mud" as mud pit.
@@ -211,10 +230,17 @@ Before listing nondescript items when the player is in the Clearing,
 	if the worm is marked for listing,
 		change the worm to not marked for listing. 
 
+[Code from Elasia]
+
 The worm is an object in the Clearing. the description of the worm is "A plump and juicy pink worm."
 
 Instead of eating the worm:
 	say "You're not that messed up are you? Try putting the worm to better use."
+
+[Had to add the eating worm code after both testers thought the worm was food.]
+
+instead of touching the worm:
+	say "squishy."
 
 understand "bait" as worm.
 
@@ -260,6 +286,8 @@ component list	result
 {vial y, vial z}	volatile substance
 {uncharged battery, battery fluid}	charged battery
 
+[Combine table from Kaitlyn Poentis's source: Stranded]
+
 After combining the wooden handle with the sharp rock:
 	say "You shove the sharp rock into the wooden handle. You have created a stone axe."
 	
@@ -289,6 +317,8 @@ If the player is carrying the volatile substance,
 end the game saying "You created a volatile substance and died of an explosion"
 
 volatile substance is an object.
+
+[added these mixtures to add more death scenarios into my game]
 
 The unfinished rod is an object. the description of the unfinished rod is "A close resemblance to a fishing rod. All you need is bait."
 
@@ -356,6 +386,10 @@ The walls is scenery in the Old Shack. The description of the walls is "Walls li
 
 understand "wall" as walls.
 
+The shelf is scenery in the Old Shack. The description of the shelf is "Wall-hung wooden shelves."
+
+understand "shelves" as shelf.
+
 The skulls is scenery in the Old Shack. The description of the skulls is "Unusual skulls that don't resemble the skull of anything you are familiar with."
 
 understand "skull" as skulls.
@@ -392,10 +426,16 @@ Instead of talking to the scientist:
 	If the scientist is not holding the cooked mullet:
 		say "Food…please…";
 	If the scientist is holding the cooked mullet:
-		say "Thank you so much, I was literally dying of starvation. Anyways, if you're trying to get off this island, there's a secret lab under the volcano to the north. Take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. Unfortunately, that's all I remember…Be careful.";
-		move goggles to player
+		say "Thank you so much, I was literally dying of starvation. Anyways, if you're trying to get off this island, there's a secret lab under the volcano to the north. Take this key to the locked gate to the west. You may find something useful in the cave. Also, take these goggles to the lava tube on the east side of the island. With these special goggles, You should be able to find the passcode to the lab. But beware, a creature lurks in the depths of the cave to the west. If you get near, it won't hesitate to kill you right then and there. You should be safe from the creature once you get to the tunnel under the volcano. Be careful…";
+		move goggles to player;
+		move the rusty key to the player
 		
+[Because I couldn't figure out how to code the hunger status, I used this code instead. As long as the scientist is holding the food, The dialogue will change.]
+
 The cooked mullet is an object. The description of the cooked mullet is "A brown and crispy cooked fish."
+
+instead of smelling the cooked mullet:
+	say "mmmm…nothing like the smell of cooked fish."
 
 understand "mullet" as cooked mullet.
 
@@ -417,6 +457,8 @@ understand "goggles" as special goggles.
 		
 The Wooden Door is north of the Dirt Path and south of the Old Shack. The Wooden Door is a door. The Wooden Door is scenery. The Wooden Door is lockable and locked. The Stone axe unlocks the Wooden Door. The description of the Wooden Door is "A wooden door that is covered in slash marks. Whatever left the marks must've been pretty big…"
  
+[Help from Leo Kodish. (doors between rooms)]
+
 understand "planks" as Wooden Door.
 
 understand "plank" as Wooden Door.
@@ -430,6 +472,16 @@ Instead of going north to the Old Shack:
 		If the Wooden Door is open:
 			move the player to the Old Shack.
 		
+rapping is an action applying to one visible thing.
+
+understand "break [wooden door]" as rapping.
+
+instead of rapping:
+	If the player is holding the stone axe:
+		say "What do you want to break the door with?";
+	If the player is not holding the stone axe:
+		say "You have nothing to break the door with."
+
 Breaking is an action applying to two visible things.	
 
 understand "Break [something] with [something]" as Breaking.
@@ -470,6 +522,8 @@ Instead of breaking the Wooden Door:
 	If the player is not holding the stone axe:
 		say "You don't have anything to break the planks with."
 			
+[Help from Ty. (Checking actions)]
+
 Instead of Chopping the Wooden Door:
 	If the player is holding the stone axe:
 		If the Wooden Door is locked:
@@ -538,6 +592,12 @@ understand "mullet" as raw mullet.
 
 understand "raw fish" as raw mullet.
 
+instead of smelling the raw mullet:
+	say "smells fishy." 
+	
+instead of touching the raw mullet:
+	say "the mullet is raw and squishy."
+
 Smacking is an action applying to one visible thing.
 
 understand "catch fish with [thin line]" as smacking.
@@ -546,6 +606,8 @@ understand "fish with [thin line]" as smacking.
 
 Instead of smacking:
 	say "You can't fish with just a fishing line! Try fishing with something else."
+	
+[smacking is just a random name for the action of catching a fish with the thin line.]
 
 The Volcano Slope is a room. It is north of the Clearing and south of the Hidden Door. "The slope of a towering active volcano in the middle of the island. The slope is covered with ash and underbrush. There is a small lava pit at the foot of the slope. The lava tube is to the east and the clearing is to the south."
 
@@ -578,6 +640,8 @@ Instead of cooking:
 Before listing nondescript items when the player is in the Volcano Slope, 
 	if the safe is marked for listing,
 		change the safe to not marked for listing. 
+
+[Code from Elasia]
 
 The safe is a container in the Volcano Slope. It is a closed openable container. It is locked and lockable. 
 
@@ -629,9 +693,38 @@ understand "plants" as underbrush.
 
 understand "ferns" as underbrush.
 
+understand "fern" as underbrush.
+
 understand "trees" as underbrush.
 
+understand "skinny trees" as underbrush.
+
+understand "skinny tree" as underbrush.
+
+understand "tree" as underbrush.
+
 The Gate is a door. It is east of the Cave and west of the Dirt Path. The Gate is scenery. The Gate is locked and lockable. The rusty key unlocks the Gate. The description of the Gate is "A giant gate that covers the entire mouth of a cave. The gate is littered with warning and danger signs. How eerie. On the front of the gate is a keyhole in the shape of an hourglass. This gate is probably here for a reason…"
+
+Yelling is an action applying to one visible thing.
+
+Understand "open [gate]" as yelling.
+
+Instead of yelling:
+	If the gate is unlocked:
+		If the player is holding the rusty key:
+			If the gate is closed:
+				say "The gate opens with a loud creak that echoes through the dark cave. The creaking of the gate is followed by a distant growl from somewhere far inside the cave.";
+				now the gate is open.;
+	If the gate is locked:
+		say "The gate is locked."	
+
+[Yelling is just a random name I gave to the action of opening the gate.] 
+
+Instead of closing the gate:
+	If the gate is open:
+		say "The gate is jammed and won't close.";
+	If the gate is closed:
+		say "The gate is already closed."
 
 The Cave is a room. It is west of the Locked Gate. "A dark and spacious cave that seems to extend much farther undergound. The only sound that can be heard here is the water droplets falling from the ceiling. The dirt path is to the east." 
 
@@ -686,7 +779,7 @@ understand "broken light" as broken tunnel lights.
 
 understand "tunnel light" as broken tunnel lights.
 
-The Lava Tube is a room. It is north of the Wetlands and east of the Volcano Slope. "An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls."
+The Lava Tube is a room. It is north of the Wetlands and east of the Volcano Slope. "An old lava tube that is now empty. There are strange markings engraved into the shiny black rock walls. The wetlands are to the south and the volcano slope is to the west."
 
 The strange markings is scenery in the Lava Tube. The description is "Cave paintings and hieroglyphs that look to have been engraved into the rock wall long ago. There are also some faint scratches that look out of place."
 
@@ -722,6 +815,11 @@ Instead of examining the strange markings:
 	Otherwise:
 		say "Old cave paintings with the number '133716' etched in behind."
 		
+[If the player is wearing the goggles when examining the wall, an item, which is needed to win the game, will be moved to the inventory. If the player is not wearing the goggles when examining the wall, The object will not be moved the inventory.] 
+
+Instead of touching the strange markings:
+	say "You can feel tiny, man-made scratches behind the paintings." 
+
 The East Metal Door is a door. It is east of the Dark Tunnel and west of the Secret Lab. The description of the East Metal Door is "A metal door that slides open from the middle." The East Metal Door is locked and lockable. The East Metal Door is scenery.
 
 Instead of going east to the Secret Lab:
@@ -777,6 +875,8 @@ Instead of pinching:
 		If the player is not holding the code:
 			say "What in the world do i enter into the keypad?"
 
+[Pinching is just a name I gave to this action since unlocking is already an action. Once the code is "pinched" into the keypad, two doors are unlocked and opened. The player doesn't have to physically enter the code. As long as the player is holding a certain item in his/her inventory when the keypad is interacted with, the doors will be unlocked and opened.]
+
 The Secret Lab is a room. It is east of the East Lab Door and south of the Experiment Room. The description of the Secret Lab is "A secret lab built under a volcano? Sounds like something straight out of a sci-fi movie! Flasks and beakers of different shapes and sizes line the shelves and tabletops. Rows of beeping machines are located in the far corner of the lab. The dark tunnel is to the east and the experiment room is to the north."
 
 The science flasks is scenery in the Secret Lab. The description of the science flasks is "Flasks similar to the ones in the Old Shack."
@@ -827,6 +927,8 @@ understand "Press [buttons]" as pressing.
 
 Instead of pressing:
 	say "Let's not mess with anything here."
+
+[pressing buttons don't actually do anything. Had to add press buttons because people will be tempted to press buttons.]
 
 The screens is scenery in the Secret Lab. The description of the screens is "Computer screens. Nice."
 
@@ -981,6 +1083,68 @@ understand "put battery in [broken submarine]" as fixing.
 
 Instead of fixing:
 	If the player is holding the charged battery:
-		say "You plug the charged battery into the empty space next to the engine. You climb into the submarine and start the engine. The propeller successfuly starts and you begin your descent away from the island.";
-		end the game in victory.
+		say "You plug the charged battery into the empty space next to the engine. You climb into the submarine and start the engine. The propeller successfuly starts and you begin your descent away from the island. As you descend deeper, your surroundings slowly fade until you are engulfed in an empty white world. 
 	
+		        You open your eyes. Your eyesight is blurry and it takes a while for you to realize that you are staring straight up at a white ceiling. Still in a daze, you slowly sit up and look around. You realize that you're sitting on your bed in your bedroom. What an odd dream…";
+		end the game in victory.
+		
+The creature is a man. 
+
+After going through the gate:
+	If the player has the rusty key:
+		now the time of day is 12:00 pm.;
+		remove the rusty key from play.
+
+[added this code in order to change time to 12:00 once the player leaves the cave (progressed game 2 hours into future assuming nobody takes 160 turns to get to the cave)]
+
+Every turn:
+	If the time of day is 12:05 pm:
+		say "A dreadful howl pierces the air. It sounds like it came from the Cave. Maybe you should stay away from whatever that was.";
+		move the creature to the dirt path.
+
+[This code introduces the enemy, which can kill the player and end the game.]
+
+Every turn:	 
+	If the time of day is after 12:05 pm:
+		If a random chance of 1 in 4 succeeds:
+			If the location of the creature is not the location of the player:
+				let the way be the best route from the location of the creature to the location of the player; 
+				try the creature going the way;
+			Otherwise: 
+				say "wow."
+	
+[This code is the movement of the enemy from room to room. I used a random chance system (25% chance of movement), because I didn't know how to create a code in which the enemy moves one room every five turns. The enemy apparently can't move through doors so if the player is isolated by a door, the enemy will stop moving from room to room. This code also causes "you must supply a second noun" to pop up after random commands. This does not affect the outcome of the command though.]
+	
+Every turn:			
+	If the creature is in the Dirt Path:
+		say "The creature is now at the Dirt Path.";
+	If the creature is in the Cave:
+		say "The creature is now in the Cave.";
+	If the creature is in the Old Shack:
+		say "The creature is now in the Old Shack.";
+	If the creature is in the Clearing:
+		say "The creature is now in the Clearing.";
+	If the creature is in the Beach:
+		say "The creature is now at the Beach.";
+	If the creature is in the Wetlands:
+		say "The creature is now at the Wetlands.";
+	If the creature is in the Lava Tube:
+		say "The creature is now in the Lava Tube.";
+	If the creature is in the Volcano Slope:
+		say "The creature is now at the Volcano Slope.";
+	If the creature is in the Dark Tunnel:
+		say "The creature is now in the Dark Tunnel.";
+	If the creature is in the Secret Lab:
+		say "The creature is now in the Secret Lab.";
+	If the creature is in the Experiment Room:
+		say "The creature is now in the Experiment Room.";
+	If the creature is in the Underground Cove:
+		say "The creature is now in the Underground Cove.";
+			
+[Most of this code is unnecessary because the creature can't even enter rooms seperated by doors. I originally wanted to give a notification only when the creature moves to a different room, but I couldn't figure out how to code that. Therefore, I ended up coding this.]
+				An every turn rule:
+	If the location of the creature is the location of the player:
+		say "Fear strikes your heart as you lay eyes on the hideous creature staring back at you with four glaring eyes. This experiment gone wrong stands at twice your height. Its black fur is stained with the blood of its victims. Letting out a deathly howl, the creature lunges at you with its sickle claws outstretched and twisted fangs bared.";
+		end the game saying "you have been killed by the creature"
+		
+[If the player is in the same room as the creature, the player will die and the game will end.]
